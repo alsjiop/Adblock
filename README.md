@@ -61,6 +61,15 @@
     <li><a href="https://cdn.statically.io/gh/uBlockOrigin/uAssetsCDN/main/filters/resource-abuse.txt">uBlock filters – Resource abuse</a></li>
     <li><a href="https://gitcdn.link/cdn/uBlockOrigin/uAssetsCDN/main/filters/unbreak.txt">uBlock filters – Unbreak</a></li>
     <li><a href="https://filters.adtidy.org/extension/ublock/filters/11.txt">AdGuard Mobile Ads移动设备</a></li>
+    #自用
+    <li><a href="https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_plus.txt">Cats-Team-filters</a></li>
+    <li><a href="https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt">name: Cats-Team-dns</a></li>
+    <li><a href="https://raw.githubusercontent.com/uniartisan/adblock_list/master/adblock_plus.txt">adblock_list</a></li>
+    <li><a href="https://raw.githubusercontent.com/Ealenn/AdGuard-Home-List/gh-pages/AdGuard-Home-List.Block.txt">AdGuard Home - List</a></li>
+    <li><a href="https://raw.githubusercontent.com/BlueSkyXN/AdGuardHomeRules/master/all.txt">AdGuardHomeRules</a></li>
+    <li><a href="https://raw.githubusercontent.com/BlueSkyXN/AdGuardHomeRules/master/skyrules.txt">AdGuardHomeRules-建议开启</a></li>
+    <li><a href="https://raw.githubusercontent.com/guandasheng/TheBestAdrules/main/all.txt">TheBestAdrules</a></li>
+    <li><a href="https://raw.githubusercontent.com/5whys-adblock/AdGuardHome-rules/main/rules/output_full.txt">5whys</a></li>
 </ul>
 </details>
 
@@ -73,13 +82,13 @@
 
 | 名称           | 说明                                                | Github订阅                                                                              | jsDelivr加速订阅                                                                        |
 |--------------|---------------------------------------------------|---------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
-| `all.txt`    | 去重的规则合集，包含以下所有规则，适用于 `AdGuard` 客户端                | [✈️点此查看](https://raw.githubusercontent.com/hululu1068/AdGuard-Rule/main/rule/all.txt)      | [🚀点此查看(延迟)](https://cdn.jsdelivr.net/gh/hululu1068/AdGuard-Rule@main/rule/all.txt)    |
-| `adgh.txt`   | 针对 `AdGuardHome` 的规则，包含 `domain.txt` `regex.txt`和`mylist.txt` | [✈️点此查看](https://raw.githubusercontent.com/hululu1068/AdGuard-Rule/main/rule/adgh.txt)   | [🚀点此查看(延迟)](https://cdn.jsdelivr.net/gh/hululu1068/AdGuard-Rule@main/rule/adgh.txt)   |
-| `domain.txt` | 域名规则，`AdGuard`和`AdGuardHome`都支持                                       | [✈️点此查看](https://raw.githubusercontent.com/hululu1068/AdGuard-Rule/main/rule/domain.txt) | [🚀点此查看(延迟)](https://cdn.jsdelivr.net/gh/hululu1068/AdGuard-Rule@main/rule/domain.txt) |
-| `hosts.txt`  | `hosts` 规则，~~包含一些访问加速~~                           | [✈️点此查看](https://raw.githubusercontent.com/hululu1068/AdGuard-Rule/main/rule/hosts.txt)  | [🚀点此查看(延迟)](https://cdn.jsdelivr.net/gh/hululu1068/AdGuard-Rule@main/rule/hosts.txt)  |
-| `modify.txt` | 修饰规则，`AdGuard`支持                                      | [✈️点此查看](https://raw.githubusercontent.com/hululu1068/AdGuard-Rule/main/rule/modify.txt) | [🚀点此查看(延迟)](https://cdn.jsdelivr.net/gh/hululu1068/AdGuard-Rule@main/rule/modify.txt) |
-| `regex.txt` | 正则规则，`AdGuardHome`支持                                       | [✈️点此查看](https://raw.githubusercontent.com/hululu1068/AdGuard-Rule/main/rule/regex.txt) | [🚀点此查看(延迟)](https://cdn.jsdelivr.net/gh/hululu1068/AdGuard-Rule@main/rule/regex.txt) |
-| `mylist.txt` | 自用补充规则，人工更新                                       | [✈️点此查看](https://raw.githubusercontent.com/hululu1068/AdGuard-Rule/main/rule/mylist.txt) | [🚀点此查看(延迟)](https://cdn.jsdelivr.net/gh/hululu1068/AdGuard-Rule@main/rule/mylist.txt) |
+| `all.txt`    | 去重的规则合集，包含以下所有规则，适用于 `AdGuard` 客户端                | [✈️点此查看](https://raw.githubusercontent.com/alsjiop/AdGuard-Rule/main/rule/all.txt)      | [🚀点此查看(延迟)](https://cdn.jsdelivr.net/gh/alsjiop/AdGuard-Rule@main/rule/all.txt)    |
+| `adgh.txt`   | 针对 `AdGuardHome` 的规则，包含 `domain.txt` `regex.txt`和`mylist.txt` | [✈️点此查看](https://raw.githubusercontent.com/alsjiop/AdGuard-Rule/main/rule/adgh.txt)   | [🚀点此查看(延迟)](https://cdn.jsdelivr.net/gh/alsjiop/AdGuard-Rule@main/rule/adgh.txt)   |
+| `domain.txt` | 域名规则，`AdGuard`和`AdGuardHome`都支持                                       | [✈️点此查看](https://raw.githubusercontent.com/alsjiop/AdGuard-Rule/main/rule/domain.txt) | [🚀点此查看(延迟)](https://cdn.jsdelivr.net/gh/alsjiop/AdGuard-Rule@main/rule/domain.txt) |
+| `hosts.txt`  | `hosts` 规则，~~包含一些访问加速~~                           | [✈️点此查看](https://raw.githubusercontent.com/alsjiop/AdGuard-Rule/main/rule/hosts.txt)  | [🚀点此查看(延迟)](https://cdn.jsdelivr.net/gh/alsjiop/AdGuard-Rule@main/rule/hosts.txt)  |
+| `modify.txt` | 修饰规则，`AdGuard`支持                                      | [✈️点此查看](https://raw.githubusercontent.com/alsjiop/AdGuard-Rule/main/rule/modify.txt) | [🚀点此查看(延迟)](https://cdn.jsdelivr.net/gh/alsjiop/AdGuard-Rule@main/rule/modify.txt) |
+| `regex.txt` | 正则规则，`AdGuardHome`支持                                       | [✈️点此查看](https://raw.githubusercontent.com/alsjiop/AdGuard-Rule/main/rule/regex.txt) | [🚀点此查看(延迟)](https://cdn.jsdelivr.net/gh/alsjiop/AdGuard-Rule@main/rule/regex.txt) |
+| `mylist.txt` | 自用补充规则，人工更新                                       | [✈️点此查看](https://raw.githubusercontent.com/alsjiop/AdGuard-Rule/main/rule/mylist.txt) | [🚀点此查看(延迟)](https://cdn.jsdelivr.net/gh/alsjiop/AdGuard-Rule@main/rule/mylist.txt) |
 
 <br/>
 <h2 id="c">🛠️ 配置</h2>
