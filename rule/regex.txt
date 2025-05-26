@@ -1,4 +1,4 @@
-# Update time: 2025-05-25 20:46:13
+# Update time: 2025-05-26 10:03:53
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -127,16 +127,15 @@ advertisers.js|
 ||advertise.
 ||ap*.pl520.com^
 ||tracker*.qcloud.com^
+    <head>
+<!DOCTYPE html>
             function do_onload() {
             }
         <noscript>
-    <head>
-<!DOCTYPE html>
 ||imgpfx.arenavision.
 ||player-feedback*.glomex.*^
 ||ad*.aginomoto.com
 ||adx-*.dbankcloud.
-||us.*.qwadro.com^
 ||tnc16-*.byteoversea.com^
 ||v*-ad.video.yximgs.com^
 ||pixel*.production-public.tubi.io^
@@ -223,6 +222,7 @@ advertisers.js|
 ||ad.*.xiaomi.com^
 ||mon*-misc-lf.fqnovel.com^
 ||ads*.textra.me^
+||us.*.qwadro.com^
 ||aj2*.online^
 ||cs*.mp3bars.com^
 ||tracking-v*.a.run.app^
@@ -583,6 +583,7 @@ Banner468x60
 ||rotaban.
 ||rusrestbest.
 ||v.newsportal*.ru^
+||get-me-wow.
 ||ubt.tracking.shopee.
 ||cnt.proporn.
 ||itechpost.com*adbk
@@ -650,8 +651,8 @@ rgmechanicsgames.com*VPN.exe
 ||fxhpaoxqyajvmdg.
 ||poptraf.
 ||v*.sitecounter.site^
+728x90.jpg|
 ||centent.streamp1ay.
-||get-me-wow.
 ||allsportsflix.
 ||107.167.16.*.gif
 ||admi2fib4exit^
@@ -697,7 +698,6 @@ cookiePolicyEUPopin*
 |pizzaseo.com|
 ||secure-access-*.gate23.xyz^
 ||highperformancecpm*.com^
-||hokaoutlet*
 |dominiosvision.com|
 ||adidasfactoryoutlet*
 ||my-altinn*
@@ -705,6 +705,7 @@ flipdish-cookie-consent*
 ||acrxcoupon.
 ||salomonoutlet*
 ||hokaoneone*
+||top-captcharesolver.
 ||githubtalentcommunity.
 ||best202*-games-web1.com^
 ||acrxcards.
@@ -790,7 +791,6 @@ flipdish-cookie-consent*
 ||adsystem*.*^
 ||adsrvmedia*.*^
 ||analysis*.*^
-728x90.jpg|
 ||log.*.hunantv.com^
 ||play*.videos.vidto.me^
 ||activity.*.miui.com^
