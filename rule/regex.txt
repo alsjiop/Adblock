@@ -1,4 +1,4 @@
-# Update time: 2025-06-04 10:03:07
+# Update time: 2025-06-04 20:53:14
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -133,10 +133,13 @@ advertisers.js|
 ||adx-*.dbankcloud.
 ||prebid-cache*.ifunny.co^
 ||us.*.qwadro.com^
+||ms*.applvn.com^
+||mob*.novanewsapp.com^
 ||tnc16-*.byteoversea.com^
 ||rtbimp-loadbalancer-*.amazonaws.com^
 ||v*-ad.video.yximgs.com^
 ||production-adserver-*.amazonaws.com^
+||mobiadvert*.livesportmedia.eu^
 ||pixel*.production-public.tubi.io^
 ||host*.nti.nl^
 ||ping*.qq.com^
@@ -242,7 +245,6 @@ advertisers.js|
 ||widgets.*.webengage.com^
 ||adi*.cnool.net^
 ||ads*.depositfiles.com^
-||mob*.novanewsapp.com^
 ||ad-*.appacc.dbankedge.cn^
 ||aj1*.online^
 ||aff*.kolektiva.net^
@@ -447,7 +449,6 @@ advertisers.js|
 ||aan.amazon.*^
 ||ya*.dwstatic.com^
 ||iad-*.braze.com^
-||ms*.applvn.com^
 ||d*.xinshipu.com^
 ||bjsvp*.space^
 ||tracking-*.trnox.com^
@@ -456,7 +457,6 @@ advertisers.js|
 ||ali-p2p*pull*com^
 ||same*.stockstar.com^
 ||gcw*.2liang.cn^
-||mobiadvert*.livesportmedia.eu^
 ||livetracker.*.pangea-cms.com^
 ||log*-normal-lq.toutiaoapi.com^
 ||quangcao-*.epicdn.me^
@@ -475,7 +475,6 @@ analytics-*.aasaam.com
 ||gtmdev.jabra.
 ||tracking.olx.
 ||teleriumads-*.netdna-ssl.com^
-||rgfftupf.
 ||adservice.google.
 ||analytics-api.dvdfab.
 |load.sst.
@@ -486,6 +485,7 @@ analytics-*.aasaam.com
 ||xmindchina.
 ||bondzgi*.
 ||etargetnet.*.hu^
+||ysdm*.ys137.com.cn^
 ||sgtm.fashionunited.
 ||107.167.22.*.gif
 ||partner.superbahisaffiliates*.com^
@@ -497,7 +497,6 @@ analytics-*.aasaam.com
 ||cnt.vivatube.
 ||rotabanner.
 ||metrics*.fitanalytics.com^
-||www.fuze-sea*.xyz^
 ||advert*.ultraweb.hu^
 ||edgetrksvc.ebay.
 @@||cdn*.porn300.com^
@@ -514,11 +513,9 @@ analytics-*.aasaam.com
 ||googleadservices.
 ||bc.geocities.
 ||cnt.yeptube.
-||sax*.sina.
 ||tag-based.s3.*.amazonaws.com^
 ||67.21.92.*.gif
 ||alishop*.ru^
-||putrr*.com^
 ||ad*.wisenut.co.kr^
 ||cnt.hd21.
 ||pixel*.adswizz.com
@@ -559,6 +556,7 @@ Banner468x60
 ||icq-window.
 ||icqwindow.
 ||rb*.design.ru^
+||107.167.16.*.gif
 ||st-n.ads*-adnow.com^
 ||cintent.streanplay.
 %2Fevent.gif%3F
@@ -573,6 +571,7 @@ Banner468x60
 ||dualstack.adbert-web-lbs-*.elb.amazonaws.com^
 ||i-*.ci360.sas.com^
 ||a*.smlog.co.kr^
+||gamenguide.com*adbk
 ||ad*.bilgin.pro^
 ||track.zalando.
 ||seller-log-collector.shopee.
@@ -589,12 +588,12 @@ Banner468x60
 ||ubt.tracking.shopee.
 ||cnt.proporn.
 ||as*.prog.hu^
+||itechpost.com*adbk
 ||popuptraf.
 ||cnt.tubeon.
 ||videoclik.
 ||vst.videolink.
 ||poshalim.
-||158.247.208.
 ||df.infra.sz.shopee.
 |load.gtm.
 ||pixel.archive.
@@ -637,30 +636,29 @@ rgmechanicsgames.com*VPN.exe
 ||snowplow-collector.
 ||mediacontext.
 ||videoclick.
-||www.fuze-hill*.xyz^
 ||admulti.
 ||broredir*s.site^
 ||cnzz.
 ||parkdomainreal*.site^
-||fapnado.*.php|
 ||popunder.
 ||stat.tiara.
 @@||cdn-msp*.18comic.*^
+||fpb1.chinacar.
 ||rotator.
 ||mf*.advantage.as^
 ||121.204.246.*.gif
 ||acookie.*.gif?
 ||button.blogs.yandex.
 ||collector.xhamster*.
+||sta.wawacity.
 ||fxhpaoxqyajvmdg.
 ||poptraf.
 ||v*.sitecounter.site^
-||gamenguide.com*adbk
+||sax*.sina.
 728x90.jpg|
-||107.167.16.*.gif
-||itechpost.com*adbk
-||ysdm*.ys137.com.cn^
-||fpb1.chinacar.
+||158.247.208.
+||fapnado.*.php|
+||rgfftupf.
 d4?appid*type*
 notifications.google.com%2Fg%2Fimg%2F*.gif
 ||invenio_tracking_*.sgnapps.com^
@@ -699,6 +697,7 @@ cookiePolicyEUPopin*
 ||git.gitlab.gitlab.
 ||discord*.gifts^
 ||tnc3-bjlgy.snssdk.^
+||www.fuze-sea*.xyz^
 ||verify-att.app.^
 ||glthub.
 ||acrxnews.
@@ -709,6 +708,7 @@ cookiePolicyEUPopin*
 |pizzaseo.com|
 ||secure-access-*.gate23.xyz^
 ||highperformancecpm*.com^
+||cpng.lol.^
 ||git.git.git.git.
 |dominiosvision.com|
 ||adidasfactoryoutlet*
@@ -724,6 +724,7 @@ flipdish-cookie-consent*
 ||monetrizer*.
 ||pubggf*.xyz^
 ||videoadblocker-pro.
+||www.fuze-hill*.xyz^
 ||no-oppdatere.
 ||ns*.fastthinkingdns.com^
 ||mizunooutlet*
@@ -772,9 +773,11 @@ flipdish-cookie-consent*
 ||marketplace-ios-*.hyprmx.com^
 ||duomeng*.*^
 ||xn--xhq9mt12cf5v.*^
+||218.26.217.*.html
 ||hostingcloud.*^
 ||vegaoo*.*^
 ||clkservice*.youdao.com^
+||putrr*.com^
 ||count*.pconline.com.cn^
 ||iflyad.*.openstorage.cn^
 ||freecontent.*^
@@ -862,7 +865,6 @@ flipdish-cookie-consent*
 ||111.175.219.*.js
 ||gg*.51cto.com^
 ||data.mistat.*.xiaomi.com^
-||cpng.lol.^
 ||fls-*.amazon.com^
 ||ttp^
 ||簽約擔保應用平臺.top^
@@ -871,6 +873,7 @@ flipdish-cookie-consent*
 ||z4.新竹物流z.top^
 ||0xc12a24f5^
 |samsungcloudsolution.net^
+||ebya授权签约担保平台.top^
 ||oempprd.samsungcloudsolution.
 ||zec-asia1..nanopool.org^
 ||de2.node..aeon-pool.com^
