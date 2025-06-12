@@ -1,4 +1,4 @@
-# Update time: 2025-06-11 20:53:04
+# Update time: 2025-06-12 10:02:18
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -47,7 +47,6 @@
 
 # 每12小时同步一次、如有误杀、请手动解除
 
-||report.*.qq.com^
 ||yandex.avito.www.
 ||booklng.com-*
 ||yandex.avito.sber*
@@ -55,6 +54,7 @@
 ||avito.avito.www.avito.
 ||avito.avito.avito.
 ||yandex.pay.avito.
+||report.*.qq.com^
 ||adx.
 ||adx-
 ||adsfs.
@@ -579,11 +579,13 @@ Banner468x60
 ||centent.streamp1ay.
 ||sta.zone-telechargement.
 ||subnewss*.net^
+||23.109.87.
 ||t.delfi.
 ||medialand.
 ||rotaban.
 ||rusrestbest.
 ||v.newsportal*.ru^
+||get-me-wow.
 ||ubt.tracking.shopee.
 ||cnt.proporn.
 ||as*.prog.hu^
@@ -654,10 +656,8 @@ rgmechanicsgames.com*VPN.exe
 ||poptraf.
 ||v*.sitecounter.site^
 728x90.jpg|
-||get-me-wow.
 ||acookie.*.gif?
 ||allsportsflix.
-||23.109.87.
 ||itechpost.com*adbk
 ||fxhpaoxqyajvmdg.
 ||ysdm*.ys137.com.cn^
@@ -734,6 +734,7 @@ flipdish-cookie-consent*
 ||dnb-oppdater.
 ||csgogf*.xyz^
 ||acrxcoupons.
+||version.bind|
 ||csgogift*.xyz^
 ||freevideoadblock.
 ||mizunousaoutlet*
@@ -868,7 +869,6 @@ flipdish-cookie-consent*
 ||ttp^
 ||簽約擔保應用平臺.top^
 ||ip6-loopback^
-||Malware list by Disconnect^
 ||z4.新竹物流z.top^
 ||0xc12a24f5^
 |samsungcloudsolution.net^
