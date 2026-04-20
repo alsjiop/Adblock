@@ -1,4 +1,4 @@
-# Update time: 2026-04-19 21:05:57
+# Update time: 2026-04-20 10:52:59
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -17,6 +17,7 @@
 
 # 每12小时同步一次、如有误杀、请手动解除
 
+||report.*.qq.com^
 ||yandex.avito.www.
 ||booklng.com-*
 ||yandex.avito.sber*
@@ -24,13 +25,9 @@
 ||avito.avito.www.avito.
 ||avito.avito.avito.
 ||yandex.pay.avito.
-||report.*.qq.com^
 ||imgpfx.arenavision.
 ||player-feedback*.glomex.*^
 ||ad.kisstvshow.*^
-||m7k4.com*.php?
-||minero-proxy-*now.sh
-||ad*.aginomoto.com
 ||ads-*-nfl.yinzcam.com^
 ||ads*.production-public.tubi.io^
 ||adx-*.op.dbankcloud.com.edgekey.net^
@@ -77,6 +74,9 @@
 ||banner.*.tccapis.com^
 ||cdn-adn-*.rayjump.com^
 ||adcs-*.myappsget.com^
+||m7k4.com*.php?
+||minero-proxy-*now.sh
+||ad*.aginomoto.com
 ||pixel*.production-public.tubi.io^
 ||host*.nti.nl^
 ||increase-rev*.static-cloudflare.workers.dev^
@@ -302,7 +302,6 @@
 ||mon-*.tiktokv.com^
 ||client.rum.*.amazonaws.com^
 ||pixelapi-*.cs.mysamba.tv^
-||at*.doubanio.com^
 ||acr-*-prd.samsungcloud.tv^
 ||mon*-*.tiktokv.com^
 ||collector-*.px-client.net^
@@ -406,19 +405,16 @@ analytics-*.aasaam.com
 ||bar*.shinobi.jp^
 ||matt.mercadolibre.
 ||an.yandex.
-||adservice.google.
 ||dualstack.adbert-web-lbs-*.elb.amazonaws.com^
 ||analytics-api.dvdfab.
 ||gamenguide.com*adbk
 ||ad*.bilgin.pro^
 ||sta.zone-telechargement.
-||bondzgi*.
 ||23.109.87.
 ||etargetnet.*.hu^
 ||107.167.22.*.gif
 ||adservice.google.co.*
 ||23.109.82.
-||analytics.vgtimes.
 ||advert*.ultraweb.hu^
 ||sst.carwow.
 ||as*.prog.hu^
@@ -429,7 +425,6 @@ analytics-*.aasaam.com
 ||df.infra.sz.shopee.
 ||mr.allegro.
 ||onetrust.
-||pixel.archive.
 ||bc.geocities.
 ||stw.extreme-down.
 ||ad*.gyaloglo.hu^
@@ -443,7 +438,6 @@ analytics-*.aasaam.com
 ||molpmh.xyz|
 |a.klaviyo.com^
 ||ad.*.doubleclick.net^
-||analytics.ahrefs.
 %2Fopen.aspx%3F
 ||basvformu*.xyz^
 %2Frw%2Fbeacon_
@@ -456,17 +450,13 @@ analytics-*.aasaam.com
 ||analytics.ticketmaster.
 Banner468x60
 ||1024wanzhai.
-||backstory.ebay.
 ||ads*.opensubtitles.org^
 rgmechanicsgames.com*VPN.exe
-||analytics.streamfab.
 ||admulti.
-||broredir*s.site^
 ||ad*.tmgrup.com.tr^
 ||fapnado.*.php|
 @@||cdn-msp*.18comic.*^
 ||fpb1.chinacar.
-||cdn*.swaxis.com^
 ||stats.zone-annuaire.
 ||adimg*.search.naver.net^
 |167.206.10.148^
@@ -481,7 +471,6 @@ rgmechanicsgames.com*VPN.exe
 ||38.33.15.*.gif
 ||zhizhizhizhi.oss-*.aliyuncs.com^
 ||get-me-wow.
-||impservice*.youdao.com^
 ||gcw*.2liang.cn^
 728x90.jpg|
 ||ya*.dwstatic.com^
@@ -491,7 +480,6 @@ rgmechanicsgames.com*VPN.exe
 ||allsportsflix.
 ||sam*.baby-kingdom.com^
 ||107.167.16.*.gif
-||qpb*.sohu.com^
 ||static*.365inews.com^
 ||vns86.oss-*.aliyuncs.com^
 ||ysdm*.ys137.com.cn^
@@ -582,6 +570,7 @@ newegg.com%2Fmr%2F*.gif%3Fr%3D
 ||cnt.yeptube.
 ||hokaoutlet*
 ||gitcoin-passport.
+||botswanapostt.
 ||putrr*.com^
 ||redir-pw*.com^
 ||kgm-*.bond^
@@ -599,6 +588,7 @@ newegg.com%2Fmr%2F*.gif%3Fr%3D
 ||aupost-awaits.
 ||postlat-aut.
 ||foundation-github.
+||analytics.streamfab.
 ||videoadblocker-pro.
 ||postnord-tracks.
 ||ns*.fastthinkingdns.com^
@@ -667,6 +657,7 @@ jquery-eu-cookie-law-popup*
 ||aupost-track.
 ||cl*.k5a.io^
 ||postaa-ba.
+||analytics.ahrefs.
 ||salomonoutlet*
 ||s*.adduplex.com^
 ||auspost-personal.
@@ -675,11 +666,13 @@ jquery-eu-cookie-law-popup*
 ||postnord-post.
 ||countly-
 ||countly.
+||backstory.ebay.
 ||pop-parad.
 ||auspostsending.
 ||mediacontext.
 ||videoclick.
 ||ctt-prtpost.
+||broredir*s.site^
 ||no-oppdatere.
 ||pwredir-*.com^
 ||mf*.advantage.as^
@@ -695,6 +688,7 @@ jquery-eu-cookie-law-popup*
 ||iphone17promaxbrandnew*.edgeone.dev^
 |1x1.cz|
 |id.server|
+||bondzgi*.
 ||gitlab.gitlab.gitlab.
 ||git.gitlab.gitlab.
 ||redirectingaupost.
@@ -734,6 +728,7 @@ jquery-eu-cookie-law-popup*
 ||mizunooutlet*
 ||dnb-oppdater.
 ||rehs.*.hu^
+||cdn*.swaxis.com^
 ||srmdata-*.com^
 ||csgogift*.xyz^
 ||icq-window.
@@ -762,6 +757,7 @@ jquery-eu-cookie-law-popup*
 ||aupost-tracks.
 ||gitcoin-application.
 ||rotaban.
+||analytics.vgtimes.
 ||cnt.proporn.
 ||popuptraf.
 ||vst.videolink.
@@ -812,6 +808,7 @@ jquery-eu-cookie-law-popup*
 ||adsfile.
 ||play2.flashx.
 ||dm-*.toutiao.com^
+||adservice.google.
 ||zalo-ads*.zadn.vn^
 ||bj*.9669.cn^
 ||ad-*.net^
@@ -843,8 +840,10 @@ jquery-eu-cookie-law-popup*
 ||marketplace-ios-*.hyprmx.com^
 ||xn--xhq9mt12cf5v.*^
 ||218.26.217.*.html
+||qpb*.sohu.com^
 ||hbbtv.*.de^
 ||cpro.
+||impservice*.youdao.com^
 ||tccd.douglas.
 ||d*.ruiwen.com^
 ||servo-report.dvdfab.
@@ -857,6 +856,7 @@ jquery-eu-cookie-law-popup*
 ||adsense.
 ||imp*.tradedoubler.com^
 ||ac*.pingguolv.com^
+||at*.doubanio.com^
 ||adsame.
 ||mkto-*.com^
 ||dm*.yxlady.com^
@@ -892,6 +892,7 @@ jquery-eu-cookie-law-popup*
 ||engage.3m*^
 ||adm*.autoimg.cn^
 ||ads*-normal-hl.zijieapi.com^
+||pixel.archive.
 ||ad-*.com^
 ||122.225.103.*.htm
 ||dm*.ppzuowen.com^
