@@ -1,4 +1,4 @@
-# Update time: 2026-05-05 21:59:35
+# Update time: 2026-05-06 11:22:35
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -17,7 +17,7 @@
 
 # 每12小时同步一次、如有误杀、请手动解除
 
-||p𝓸𝘳𝘯𝚔𝘢f.net^
+||report.*.qq.com^
 ||yandex.avito.www.
 ||booklng.com-*
 ||yandex.avito.sber*
@@ -25,7 +25,6 @@
 ||avito.avito.www.avito.
 ||avito.avito.avito.
 ||yandex.pay.avito.
-||report.*.qq.com^
 ||imgpfx.arenavision.
 ||player-feedback*.glomex.*^
 ||ad.kisstvshow.*^
@@ -401,37 +400,51 @@
 ||analytics*.prezly.com^
 ||collector*.ex.co^
 ||vns86.oss-*.aliyuncs.com^
-||bc.geocities.
-||stw.extreme-down.
 analytics-*.aasaam.com
 ||matt.mercadolibre.
-||molpmh.xyz|
-%2Fopen.aspx%3F
+||adservice.google.
 ||analytics-api.dvdfab.
-%2Frw%2Fbeacon_
 ||ad*.on.cc^
-||142.91.159.
 ||sta.zone-telechargement.
+||tw-726620180914.*.run.app^
+||adservice.google.co.*
+||23.109.82.
+||get-me-wow.
+||advert*.ultraweb.hu^
+||sst.carwow.
+||itechpost.com*adbk
+@@||cdn*.porn300.com^
+||stats.zone-telechargement.
+||158.247.208.
+||df.infra.sz.shopee.
+||mr.allegro.
+||onetrust.
+||pixel.archive.
+||bc.geocities.
+||stw.extreme-down.
+||ad*.gyaloglo.hu^
+||ad*.thisisgame.com^
+||ad*.wisenut.co.kr^
+||adverticum.*.hu^
+||tccd.douglas.
+||molpmh.xyz|
+||servo-report.dvdfab.
+||ad.*.doubleclick.net^
+%2Fopen.aspx%3F
+%2Frw%2Fbeacon_
+||142.91.159.
+||ad*.mellesleg.hu^
+||ads-*.v.ssp.yahoo.com^
 @@||r.*.awstrack.me^
 ||analytics.ticketmaster.
 Banner468x60
 ||1024wanzhai.
 ||ads*.opensubtitles.org^
-||tw-726620180914.*.run.app^
 rgmechanicsgames.com*VPN.exe
-||23.109.82.
-||get-me-wow.
-||sst.carwow.
-||itechpost.com*adbk
-@@||cdn*.porn300.com^
-||stats.zone-telechargement.
 @@||cdn-msp*.18comic.*^
 ||fpb1.chinacar.
-||158.247.208.
 ||stats.zone-annuaire.
-||df.infra.sz.shopee.
-||mr.allegro.
-||onetrust.
+||adimg*.search.naver.net^
 |167.206.10.148^
 ||sta.wawacity.
 ||107.167.16.*.gif
@@ -488,7 +501,6 @@ notifications.google.com%2Fg%2Fimg%2F*.gif
 ||invenio_tracking_*.sgnapps.com^
 notifications.googleapis.com%2Femail%2Ft%2F*%2Fa.gif
 r.rakuten.co.jp%2F*.gif%3Fmpe%3D
-newegg.com%2Fmr%2F*.gif%3Fr%3D
 google-analytics.com%2Fcollect
 digital-eliteboard.com%2Fb%2Fimage.gif%3Fp%3D
 directtrack.*.js
@@ -502,6 +514,7 @@ d4?appid*type*
 esputnik.com%2Frepository%2Fapplications%2Fcommons%2Fhidden.png
 deepl.qualtrics.com%2Fsubscription%2Fwatermark.gif%3F
 healio.com%2Fmedialibrary%2Fpixel.png%3Ftp%3D
+newegg.com%2Fmr%2F*.gif%3Fr%3D
 click.official.infomaniak.com%2Fo%2F
 google.com%2Fappserve%2Fmkt%2Fproof%2Fimg%2F*.gif
 ||tracking.cds.dmm.
@@ -535,7 +548,6 @@ google.com%2Fappserve%2Fmkt%2Fproof%2Fimg%2F*.gif
 ||kgmgo*.bond^
 ||cnt.vivatube.
 ||rotabanner.
-||advert*.ultraweb.hu^
 ||postnord-confirmation.
 ||aupost-tacks.
 ||aupostools.
@@ -557,7 +569,6 @@ google.com%2Fappserve%2Fmkt%2Fproof%2Fimg%2F*.gif
 ||botswanapostt.
 ||putrr*.com^
 ||alishop*.ru^
-||ad*.wisenut.co.kr^
 ||redir-pw*.com^
 ||kgm-*.bond^
 ||ausposehelp.
@@ -651,8 +662,6 @@ cookiePolicyEUPopin*
 ||highperformancecpm*.com^
 ||trackdetailsaa.
 ||popupclick.
-||ad*.gyaloglo.hu^
-||adverticum.*.hu^
 |load.sgtm.
 ||dw-informer-*.newsru.com^
 |piwik.
@@ -669,7 +678,6 @@ flipdish-cookie-consent*
 ||auspost-personal.
 ||adserver1.
 ||best202*-games-web1.com^
-||ad*.mellesleg.hu^
 ||postnord-post.
 ||countly-
 ||countly.
@@ -705,7 +713,6 @@ flipdish-cookie-consent*
 ||gitlab.gitlab.gitlab.
 ||git.gitlab.gitlab.
 ||redirectingaupost.
-||adservice.google.co.*
 ||u*.takru.com^
 ||www.fuze-sea*.xyz^
 ||metrics*.fitanalytics.com^
@@ -713,7 +720,6 @@ flipdish-cookie-consent*
 ||adservice.
 ||edgetrksvc.ebay.
 ||posten-tracks.
-||freediscordnitro.
 ||eclog*-*.cafe24.com^
 ||reschedule-delivery.ups.com.
 |samsungqbe.com^
@@ -733,7 +739,6 @@ flipdish-cookie-consent*
 ||talpa-analytics.
 ||acrxcards.
 ||redirectionaupost.
-||ads-*.v.ssp.yahoo.com^
 ||monetrizer*.
 ||postenn-no.
 ||admaster.
@@ -746,7 +751,6 @@ flipdish-cookie-consent*
 ||rehs.*.hu^
 ||cdn*.swaxis.com^
 ||srmdata-*.com^
-||adimg*.search.naver.net^
 ||csgogift*.xyz^
 ||gitcoin-grants.
 ||icq-window.
@@ -791,14 +795,12 @@ flipdish-cookie-consent*
 ||discord-give.
 ||postten-no.
 ||tur-ptt-posen.
-||ad*.thisisgame.com^
 ||au-postaga.
 ||git.git.git.git.
 ||q*-publick.club^
 ||minitds-*.info^
 ||xscp0*xq.com^
 |a.klaviyo.com^
-||ad.*.doubleclick.net^
 ||acrxcoupon.
 ||snowplow-collector-*.amazonaws.com^
 ||thegreatesthits.
@@ -839,7 +841,6 @@ flipdish-cookie-consent*
 ||adsfile.
 ||play2.flashx.
 ||dm-*.toutiao.com^
-||adservice.google.
 ||zalo-ads*.zadn.vn^
 ||bj*.9669.cn^
 ||ad-*.net^
@@ -876,9 +877,7 @@ flipdish-cookie-consent*
 ||hbbtv.*.de^
 ||cpro.
 ||impservice*.youdao.com^
-||tccd.douglas.
 ||d*.ruiwen.com^
-||servo-report.dvdfab.
 ||metro-trending-*.amazonaws.com^
 ||8*.tianya.cn^
 ||nv-ad*.24hstatic.com^
@@ -923,7 +922,6 @@ flipdish-cookie-consent*
 ||engage.3m*^
 ||adm*.autoimg.cn^
 ||ads*-normal-hl.zijieapi.com^
-||pixel.archive.
 ||ad-*.com^
 ||122.225.103.*.htm
 ||dm*.ppzuowen.com^
