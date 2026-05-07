@@ -1,4 +1,4 @@
-# Update time: 2026-05-06 22:18:35
+# Update time: 2026-05-07 11:23:47
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -128,6 +128,7 @@
 ||ali-bj-pcdn-*.biliapi.net^
 ||ce-global-track-*.amazonaws.com^
 ||customerevents.us-east-*.internal.dradis.netflix.com^
+||d*.ruiwen.com^
 ||device-metrics-us*.amazon.com^
 ||ana*.inews24.com^
 ||ac*.786ip.com^
@@ -408,13 +409,10 @@
 ||collector*.ex.co^
 ||union*.365inews.com^
 ||vns86.oss-*.aliyuncs.com^
-||adserver*.euroweeklynews.com^
 analytics-*.aasaam.com
-||bar*.shinobi.jp^
 ||matt.mercadolibre.
 ||an.yandex.
 ||adservice.google.
-||dualstack.adbert-web-lbs-*.elb.amazonaws.com^
 ||analytics-api.dvdfab.
 ||ad*.bilgin.pro^
 ||ad*.on.cc^
@@ -438,15 +436,13 @@ analytics-*.aasaam.com
 ||ad*.gyaloglo.hu^
 ||ad*.thisisgame.com^
 ||67.21.92.*.gif
-||alishop*.ru^
 ||ad*.wisenut.co.kr^
 ||adverticum.*.hu^
-|piwik.
-||banner*.kinogo.by^
 ||molpmh.xyz|
+||servo-report.dvdfab.
+|a.klaviyo.com^
 ||ad.*.doubleclick.net^
 %2Fopen.aspx%3F
-||basvformu*.xyz^
 %2Frw%2Fbeacon_
 ||adserver1.
 ||142.91.159.
@@ -454,7 +450,6 @@ analytics-*.aasaam.com
 ||ads-*.v.ssp.yahoo.com^
 @@||r.*.awstrack.me^
 ||analytics.ticketmaster.
-Banner468x60
 ||1024wanzhai.
 ||ads*.opensubtitles.org^
 rgmechanicsgames.com*VPN.exe
@@ -474,19 +469,19 @@ rgmechanicsgames.com*VPN.exe
 %2Fevent.gif%3F
 @@||cdn-msp*.18comic*.*^
 ||df.infra.shopee.
-||gamenguide.com*adbk
 ||sax*.sina.
 ||38.33.15.*.gif
-||util-*.simply-hentai.com^
 ||uc*.atobo.com^
 ||tupian888.*.bcebos.com^
 ||get-me-wow.
+||itechpost.com*adbk
+||gamenguide.com*adbk
+||util-*.simply-hentai.com^
+||d*.xinshipu.com^
 ||js*.abolezi.com^
 ||allsportsflix.
 ||23.109.87.
-||itechpost.com*adbk
 ||prebid-*.rubiconproject.com^
-||endoﬁnternet.net^
 ||mt[0-9]*.google.cn^
 ||usage-us-*.myhomescreen.tv^
 ||is-not-certiﬁed.com^
@@ -501,34 +496,35 @@ rgmechanicsgames.com*VPN.exe
 ||t.sidekickopen*.com^
 ||is-a-ﬁnancialadvisor.com^
 ||is-certiﬂed.com^
-||dyndns-ofﬁoe.com^
 ||posthog-ingress-prod-*.*.elb.amazonaws.com^
 ||sidekickopen*.com^
 ||wms*.zoho.eu^
 ||contents*.00110.citi.com^
+it-recht-kanzlei.de%2Flogo%2FCopyright-Logo.png%3Fi%3D
+notifications.google.com%2Fg%2Fimg%2F*.gif
+||invenio_tracking_*.sgnapps.com^
+notifications.googleapis.com%2Femail%2Ft%2F*%2Fa.gif
+r.rakuten.co.jp%2F*.gif%3Fmpe%3D
+newegg.com%2Fmr%2F*.gif%3Fr%3D
 google-analytics.com%2Fcollect
 digital-eliteboard.com%2Fb%2Fimage.gif%3Fp%3D
 directtrack.*.js
-notifications.googleapis.com%2Femail%2Ft%2F*%2Fa.gif
 ||stw.zone-telechargement.
-it-recht-kanzlei.de%2Flogo%2FCopyright-Logo.png%3Fi%3D
 ||hitcrypt.
 d4?appid*type*
-notifications.google.com%2Fg%2Fimg%2F*.gif
 %2Famsweb.php%3F
 %2Fvia%2Fo%3Fh%3D
 ||data.anisearch.
 esputnik.com%2Frepository%2Fapplications%2Fcommons%2Fhidden.png
 deepl.qualtrics.com%2Fsubscription%2Fwatermark.gif%3F
 healio.com%2Fmedialibrary%2Fpixel.png%3Ftp%3D
-newegg.com%2Fmr%2F*.gif%3Fr%3D
+Banner468x60
 click.official.infomaniak.com%2Fo%2F
 google.com%2Fappserve%2Fmkt%2Fproof%2Fimg%2F*.gif
-||invenio_tracking_*.sgnapps.com^
-r.rakuten.co.jp%2F*.gif%3Fmpe%3D
 ||tracking.cds.dmm.
 @@|www.auslogics.com|
 ||postnordexpressdelivery-
+||adserver*.euroweeklynews.com^
 ||gtmdev.jabra.
 ||tracking.olx.
 ||teleriumads-*.netdna-ssl.com^
@@ -559,6 +555,7 @@ r.rakuten.co.jp%2F*.gif%3Fmpe%3D
 ||postnord-confirmation.
 ||aupost-tacks.
 ||aupostools.
+||aupost-alter.
 ||adidas-outlet*
 ||clk.rtpdn*.com^
 ||postag-at.
@@ -575,12 +572,15 @@ r.rakuten.co.jp%2F*.gif%3Fmpe%3D
 ||gitcoin-passport.
 ||botswanapostt.
 ||putrr*.com^
+||alishop*.ru^
 ||redir-pw*.com^
 ||kgm-*.bond^
 ||ausposehelp.
 ||pixel*.adswizz.com
+||banner*.kinogo.by^
 ||suite*.linximpulse.net^
 ||cnt.nuvid.
+||basvformu*.xyz^
 |load.ss.
 ||au-eparcelse.
 ||egytpostl.
@@ -615,10 +615,12 @@ r.rakuten.co.jp%2F*.gif%3Fmpe%3D
 ||rb*.design.ru^
 ||mizunocanada*
 ||version.server|
+||aupostdelivered.
 ||egytposte.
 ||logs*.smithsonian.museum^
 ||blender3d-software.
 jquery-eu-cookie-law-popup*
+||bar*.shinobi.jp^
 ||auspostdelivered.
 ||posten-nno.
 ||counter*.freecounter.ovh^
@@ -666,6 +668,7 @@ cookiePolicyEUPopin*
 ||popupclick.
 |load.sgtm.
 ||dw-informer-*.newsru.com^
+|piwik.
 ||adidasfactoryoutlet*
 ||letssex.
 ||blender3d-download.
@@ -774,6 +777,7 @@ flipdish-cookie-consent*
 ||gitlab.git.git.
 ||me9ddf.moebelix.
 ||dotagift*.xyz^
+||dualstack.adbert-web-lbs-*.elb.amazonaws.com^
 ||newntflix-
 ||postnord-order-
 ||i-*.ci360.sas.com^
@@ -802,7 +806,6 @@ flipdish-cookie-consent*
 ||q*-publick.club^
 ||minitds-*.info^
 ||xscp0*xq.com^
-|a.klaviyo.com^
 ||acrxcoupon.
 ||snowplow-collector-*.amazonaws.com^
 ||thegreatesthits.
@@ -880,8 +883,6 @@ flipdish-cookie-consent*
 ||cpro.
 ||impservice*.youdao.com^
 ||tccd.douglas.
-||d*.ruiwen.com^
-||servo-report.dvdfab.
 ||metro-trending-*.amazonaws.com^
 ||8*.tianya.cn^
 ||nv-ad*.24hstatic.com^
@@ -946,7 +947,6 @@ flipdish-cookie-consent*
 ||s*.web.flashx.co^
 ||adpic.
 ||xn--wxtr9fwyxk9c.*^
-||d*.xinshipu.com^
 ||p*-ad-sign.byteimg.com^
 ||biz5.
 ||icast.
