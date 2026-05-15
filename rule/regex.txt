@@ -1,4 +1,4 @@
-# Update time: 2026-05-14 22:18:21
+# Update time: 2026-05-15 11:39:11
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -17,7 +17,6 @@
 
 # 每12小时同步一次、如有误杀、请手动解除
 
-||report.*.qq.com^
 ||yandex.avito.www.
 ||booklng.com-*
 ||yandex.avito.sber*
@@ -25,9 +24,13 @@
 ||avito.avito.www.avito.
 ||avito.avito.avito.
 ||yandex.pay.avito.
+||report.*.qq.com^
 ||imgpfx.arenavision.
 ||player-feedback*.glomex.*^
 ||ad.kisstvshow.*^
+||m7k4.com*.php?
+||minero-proxy-*now.sh
+||ad*.aginomoto.com
 ||ads-*-nfl.yinzcam.com^
 ||ads*.production-public.tubi.io^
 ||adx-*.op.dbankcloud.com.edgekey.net^
@@ -74,19 +77,14 @@
 ||banner.*.tccapis.com^
 ||cdn-adn-*.rayjump.com^
 ||adcs-*.myappsget.com^
-||m7k4.com*.php?
-||minero-proxy-*now.sh
-||ad*.aginomoto.com
 ||adserver*.euroweeklynews.com^
 analytics-*.aasaam.com
 ||matt.mercadolibre.
 ||an.yandex.
-||gtmdev.jabra.
 ||adservice.google.
 ||analytics-api.dvdfab.
 ||xlog*-*.tiktokv.com^
 ||ad*.on.cc^
-||iphone-caviar.ru*entranceId
 ||bondzgi*.
 ||etargetnet.*.hu^
 ||ysdm*.ys137.com.cn^
@@ -118,7 +116,6 @@ analytics-*.aasaam.com
 ||cnt.nuvid.
 ||servo-report.dvdfab.
 ||wslog-global-dual.cool*cloud.com^
-||pangolin*.sgsnssdk.com^
 ||ads-*.v.ssp.yahoo.com^
 @@||r.*.awstrack.me^
 Banner468x60
@@ -133,8 +130,6 @@ Banner468x60
 ||cdn*.swaxis.com^
 ||stats.zone-annuaire.
 ||adimg*.search.naver.net^
-||icq-window.
-||icqwindow.
 ||107.167.16.*.gif
 %2Fevent.gif%3F
 @@||cdn-msp*.18comic*.*^
@@ -150,7 +145,6 @@ Banner468x60
 ||ad*.bilgin.pro^
 ||sta.zone-telechargement.
 ||23.109.87.
-||widgets.*.webengage.com^
 ||zabdybod*.club^
 ||analytics.vgtimes.
 ||ubt.tracking.shopee.
@@ -169,7 +163,6 @@ Banner468x60
 ||dw-informer-*.newsru.com^
 ||zaqlovh*.xyz^
 |piwik.
-||letssex.
 ||ub.galaxus.
 ||molpmh.xyz|
 ||ad.*.doubleclick.net^
@@ -296,6 +289,7 @@ rgmechanicsgames.com*VPN.exe
 ||device-metrics-*.amazon.com^
 ||track.*.roku.com^
 ||install*.zonastat.com^
+||widgets.*.webengage.com^
 ||adi*.cnool.net^
 ||ads*.depositfiles.com^
 ||aj1*.online^
@@ -408,7 +402,6 @@ rgmechanicsgames.com*VPN.exe
 ||mon-*.tiktokv.com^
 ||client.rum.*.amazonaws.com^
 ||pixelapi-*.cs.mysamba.tv^
-||at*.doubanio.com^
 ||acr-*-prd.samsungcloud.tv^
 ||mon*-*.tiktokv.com^
 ||collector-*.px-client.net^
@@ -542,29 +535,30 @@ rgmechanicsgames.com*VPN.exe
 ||sidekickopen*.com^
 ||wms*.zoho.eu^
 ||contents*.00110.citi.com^
-google-analytics.com%2Fcollect
-digital-eliteboard.com%2Fb%2Fimage.gif%3Fp%3D
-directtrack.*.js
-||stw.zone-telechargement.
-it-recht-kanzlei.de%2Flogo%2FCopyright-Logo.png%3Fi%3D
 ||hitcrypt.
 d4?appid*type*
 %2Famsweb.php%3F
 %2Fvia%2Fo%3Fh%3D
 ||data.anisearch.
-esputnik.com%2Frepository%2Fapplications%2Fcommons%2Fhidden.png
+digital-eliteboard.com%2Fb%2Fimage.gif%3Fp%3D
 deepl.qualtrics.com%2Fsubscription%2Fwatermark.gif%3F
-healio.com%2Fmedialibrary%2Fpixel.png%3Ftp%3D
-newegg.com%2Fmr%2F*.gif%3Fr%3D
+directtrack.*.js
+||stw.zone-telechargement.
 click.official.infomaniak.com%2Fo%2F
+google-analytics.com%2Fcollect
+it-recht-kanzlei.de%2Flogo%2FCopyright-Logo.png%3Fi%3D
 notifications.google.com%2Fg%2Fimg%2F*.gif
 ||invenio_tracking_*.sgnapps.com^
+esputnik.com%2Frepository%2Fapplications%2Fcommons%2Fhidden.png
 notifications.googleapis.com%2Femail%2Ft%2F*%2Fa.gif
+healio.com%2Fmedialibrary%2Fpixel.png%3Ftp%3D
 r.rakuten.co.jp%2F*.gif%3Fmpe%3D
+newegg.com%2Fmr%2F*.gif%3Fr%3D
 google.com%2Fappserve%2Fmkt%2Fproof%2Fimg%2F*.gif
 ||tracking.cds.dmm.
 @@|www.auslogics.com|
 ||postnordexpressdelivery-
+||gtmdev.jabra.
 ||tracking.olx.
 ||teleriumads-*.netdna-ssl.com^
 ||aueparcelstrack.
@@ -576,10 +570,12 @@ google.com%2Fappserve%2Fmkt%2Fproof%2Fimg%2F*.gif
 |load.sst.
 ||ctt-post-prt.
 ||americanconsultantrx.
+||iphone-caviar.ru*entranceId
 ||w*statistics.info^
 ||xmindchina.
 ||auseparcelme.
 ||aupost-myeparcel.
+||postnord-se-delivery.
 ||sgtm.fashionunited.
 ||log*-normal-*.tiktokv.com
 ||partner.superbahisaffiliates*.com^
@@ -606,6 +602,7 @@ google.com%2Fappserve%2Fmkt%2Fproof%2Fimg%2F*.gif
 ||botswanapostt.
 ||putrr*.com^
 ||redir-pw*.com^
+||auspost-redirection.
 ||kgm-*.bond^
 ||ausposehelp.
 ||pixel*.adswizz.com
@@ -615,6 +612,7 @@ google.com%2Fappserve%2Fmkt%2Fproof%2Fimg%2F*.gif
 ||egytpostl.
 ||posti-ffi.
 ||linkexchange.
+||pangolin*.sgsnssdk.com^
 ||block.s*block.com^
 ||sgtm.fairmont.
 ||aupost-tracksz.
@@ -690,6 +688,7 @@ cookiePolicyEUPopin*
 ||popupclick.
 |load.sgtm.
 ||adidasfactoryoutlet*
+||letssex.
 ||blender3d-download.
 ||aupost-track.
 ||cl*.k5a.io^
@@ -737,7 +736,6 @@ flipdish-cookie-consent*
 ||freediscordnitro.
 ||eclog*-*.cafe24.com^
 ||all-best-prize-202*.com^
-||reschedule-delivery.ups.com.
 |samsungqbe.com^
 ||underclick.
 ||profitablecpm*.com^
@@ -747,6 +745,8 @@ flipdish-cookie-consent*
 ||aupost-tracksa.
 ||tag-based.s3.*.amazonaws.com^
 ||auspostdeliveries.
+||sauconyoutlet*
+||aupost-trackme.
 ||mauritiupost.
 ||pop-under.
 ||githubtalentcommunity.
@@ -766,7 +766,9 @@ flipdish-cookie-consent*
 ||srmdata-*.com^
 ||csgogift*.xyz^
 ||gitcoin-grants.
+||icq-window.
 ||aupostmings.
+||icqwindow.
 ||gitcoin-fund.
 ||st-n.ads*-adnow.com^
 ||22betx*.com^
@@ -802,6 +804,7 @@ flipdish-cookie-consent*
 ||tur-ptt-posen.
 ||au-postaga.
 ||git.git.git.git.
+|dominiosvision.com|
 ||q*-publick.club^
 ||minitds-*.info^
 ||xscp0*xq.com^
@@ -890,6 +893,7 @@ flipdish-cookie-consent*
 ||adsense.
 ||imp*.tradedoubler.com^
 ||ac*.pingguolv.com^
+||at*.doubanio.com^
 ||adsame.
 ||mkto-*.com^
 ||dm*.yxlady.com^
