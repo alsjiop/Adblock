@@ -1,4 +1,4 @@
-# Update time: 2026-06-16 01:16:26
+# Update time: 2026-06-16 12:22:52
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -128,7 +128,6 @@
 ||ali-bj-pcdn-*.biliapi.net^
 ||ce-global-track-*.amazonaws.com^
 ||customerevents.us-east-*.internal.dradis.netflix.com^
-||d*.ruiwen.com^
 ||device-metrics-us*.amazon.com^
 ||ana*.inews24.com^
 ||ac*.786ip.com^
@@ -374,7 +373,6 @@
 ||log-*.zadn.vn^
 ||api*.moengage.com^
 ||hba*.hepsiburada.com^
-||reachableads-av.*.amazonaws.com^
 ||bdcpro*.techweb.com.cn^
 ||qn-*pcdn.cdn.msstatic.com^
 ||mon-va*.capcutapi.com^
@@ -387,7 +385,6 @@
 ||analytics*.carambo.la^
 ||chat*-ce.chatdealer.jp^
 ||track-*.hungrypanda.co^
-||d*.xinshipu.com^
 ||geoloc*.9cd47096ab1495d8d3b18667f6a52b9c.com^
 ||tracking-*.trnox.com^
 ||telemetry.*.pvp.net^
@@ -413,6 +410,8 @@
 ||stw.extreme-down.
 analytics-*.aasaam.com
 ||matt.mercadolibre.
+||tccd.douglas.
+||ub.galaxus.
 ||molpmh.xyz|
 ||adservice.google.
 ||servo-report.dvdfab.
@@ -426,10 +425,12 @@ analytics-*.aasaam.com
 @@||r.*.awstrack.me^
 ||analytics.ticketmaster.
 Banner468x60
+||1024wanzhai.
 ||ads*.opensubtitles.org^
 ||tw-726620180914.*.run.app^
 ||23.109.82.
 ||get-me-wow.
+||ubt.tracking.shopee.
 ||fapnado.*.php|
 ||sst.carwow.
 ||itechpost.com*adbk
@@ -468,6 +469,7 @@ Banner468x60
 ||sidekickopen*.com^
 ||wms*.zoho.eu^
 ||contents*.00110.citi.com^
+||reachableads-av.*.amazonaws.com^
 rgmechanicsgames.com*VPN.exe
 ||38.33.15.*.gif
 ||67.21.92.*.gif
@@ -483,6 +485,12 @@ rgmechanicsgames.com*VPN.exe
 ||hostingcloud.*.wasm^
 ||ysdm*.ys137.com.cn^
 ||107.167.22.*.gif
+notifications.google.com%2Fg%2Fimg%2F*.gif
+||invenio_tracking_*.sgnapps.com^
+notifications.googleapis.com%2Femail%2Ft%2F*%2Fa.gif
+r.rakuten.co.jp%2F*.gif%3Fmpe%3D
+newegg.com%2Fmr%2F*.gif%3Fr%3D
+google.com%2Fappserve%2Fmkt%2Fproof%2Fimg%2F*.gif
 google-analytics.com%2Fcollect
 digital-eliteboard.com%2Fb%2Fimage.gif%3Fp%3D
 directtrack.*.js
@@ -499,12 +507,6 @@ deepl.qualtrics.com%2Fsubscription%2Fwatermark.gif%3F
 healio.com%2Fmedialibrary%2Fpixel.png%3Ftp%3D
 alicrm.alibaba.com%2Fouter%2Femail%2FsetReadStatus.html
 click.official.infomaniak.com%2Fo%2F
-google.com%2Fappserve%2Fmkt%2Fproof%2Fimg%2F*.gif
-notifications.google.com%2Fg%2Fimg%2F*.gif
-||invenio_tracking_*.sgnapps.com^
-notifications.googleapis.com%2Femail%2Ft%2F*%2Fa.gif
-r.rakuten.co.jp%2F*.gif%3Fmpe%3D
-newegg.com%2Fmr%2F*.gif%3Fr%3D
 @@|www.auslogics.com|
 ||postnordexpressdelivery-
 ||adserver*.euroweeklynews.com^
@@ -739,7 +741,6 @@ flipdish-cookie-consent*
 ||best-prizes-202*.com^
 ||sher.*.hu^
 ||web-visor.
-||1024wanzhai.
 ||under-click.
 ||google-yandex.
 ||mizunooutlet*
@@ -874,7 +875,7 @@ flipdish-cookie-consent*
 ||hbbtv.*.de^
 ||cpro.
 ||impservice*.youdao.com^
-||tccd.douglas.
+||d*.ruiwen.com^
 ||metro-trending-*.amazonaws.com^
 ||8*.tianya.cn^
 ||nv-ad*.24hstatic.com^
@@ -907,7 +908,6 @@ flipdish-cookie-consent*
 ||vente-unique.*^
 ||omgmta*.*^
 ||tuiguang.*^
-||ubt.tracking.shopee.
 ||api.*.hismarttv.com^
 ||adserver.*^
 ||teasernet.
@@ -928,7 +928,6 @@ flipdish-cookie-consent*
 ||admob.*^
 ||adserver.
 ||fls-*.amazon.com^
-||ub.galaxus.
 ||ping.*.sogou.com^
 ||adsmogo*.*^
 ||play1.flashx.
@@ -938,6 +937,7 @@ flipdish-cookie-consent*
 ||s*.web.flashx.co^
 ||adpic.
 ||xn--wxtr9fwyxk9c.*^
+||d*.xinshipu.com^
 ||p*-ad-sign.byteimg.com^
 ||biz5.
 ||icast.
