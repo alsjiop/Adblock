@@ -1,4 +1,4 @@
-# Update time: 2026-06-17 00:56:29
+# Update time: 2026-06-17 12:17:28
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -127,7 +127,6 @@
 ||ali-bj-pcdn-*.biliapi.net^
 ||ce-global-track-*.amazonaws.com^
 ||customerevents.us-east-*.internal.dradis.netflix.com^
-||d*.ruiwen.com^
 ||device-metrics-us*.amazon.com^
 ||ana*.inews24.com^
 ||ac*.786ip.com^
@@ -383,7 +382,6 @@
 ||analytics*.carambo.la^
 ||chat*-ce.chatdealer.jp^
 ||track-*.hungrypanda.co^
-||d*.xinshipu.com^
 ||geoloc*.9cd47096ab1495d8d3b18667f6a52b9c.com^
 ||tracking-*.trnox.com^
 ||telemetry.*.pvp.net^
@@ -415,7 +413,6 @@ analytics-*.aasaam.com
 ||23.109.82.
 ||get-me-wow.
 ||ubt.tracking.shopee.
-||advert*.ultraweb.hu^
 ||sst.carwow.
 @@||cdn*.porn300.com^
 ||stats.zone-telechargement.
@@ -425,10 +422,8 @@ analytics-*.aasaam.com
 ||pixel.archive.
 ||bc.geocities.
 ||stw.extreme-down.
-||ad*.gyaloglo.hu^
 ||ad*.thisisgame.com^
 ||ad*.wisenut.co.kr^
-||adverticum.*.hu^
 ||tccd.douglas.
 ||ub.galaxus.
 ||molpmh.xyz|
@@ -437,7 +432,6 @@ analytics-*.aasaam.com
 %2Fopen.aspx%3F
 %2Frw%2Fbeacon_
 ||142.91.159.
-||ad*.mellesleg.hu^
 ||ads-*.v.ssp.yahoo.com^
 @@||r.*.awstrack.me^
 ||analytics.ticketmaster.
@@ -497,28 +491,12 @@ rgmechanicsgames.com*VPN.exe
 ||s*.skencituer.com^
 ||ysdm*.ys137.com.cn^
 ||vns86.oss-*.aliyuncs.com^
+||invenio_tracking_*.sgnapps.com^
 ||hitcrypt.
 d4?appid*type*
 ||data.anisearch.
 directtrack.*.js
 ||stw.zone-telechargement.
-google-analytics.com%2Fcollect
-digital-eliteboard.com%2Fb%2Fimage.gif%3Fp%3D
-notifications.googleapis.com%2Femail%2Ft%2F*%2Fa.gif
-api-euo.temu.com%2Fcallback%2Fdoha%2Fopen%2Ftrack%3F
-r.rakuten.co.jp%2F*.gif%3Fmpe%3D
-it-recht-kanzlei.de%2Flogo%2FCopyright-Logo.png%3Fi%3D
-notifications.google.com%2Fg%2Fimg%2F*.gif
-%2Famsweb.php%3F
-%2Fvia%2Fo%3Fh%3D
-||invenio_tracking_*.sgnapps.com^
-esputnik.com%2Frepository%2Fapplications%2Fcommons%2Fhidden.png
-deepl.qualtrics.com%2Fsubscription%2Fwatermark.gif%3F
-healio.com%2Fmedialibrary%2Fpixel.png%3Ftp%3D
-alicrm.alibaba.com%2Fouter%2Femail%2FsetReadStatus.html
-newegg.com%2Fmr%2F*.gif%3Fr%3D
-google.com%2Fappserve%2Fmkt%2Fproof%2Fimg%2F*.gif
-click.official.infomaniak.com%2Fo%2F
 @@|www.auslogics.com|
 ||postnordexpressdelivery-
 ||adserver*.euroweeklynews.com^
@@ -549,6 +527,7 @@ click.official.infomaniak.com%2Fo%2F
 ||kgmgo*.bond^
 ||cnt.vivatube.
 ||rotabanner.
+||advert*.ultraweb.hu^
 ||postnord-confirmation.
 ||aupost-tacks.
 ||aupostools.
@@ -661,6 +640,8 @@ cookiePolicyEUPopin*
 ||highperformancecpm*.com^
 ||trackdetailsaa.
 ||popupclick.
+||ad*.gyaloglo.hu^
+||adverticum.*.hu^
 |load.sgtm.
 ||dw-informer-*.newsru.com^
 |piwik.
@@ -677,6 +658,7 @@ flipdish-cookie-consent*
 ||auspost-personal.
 ||adserver1.
 ||best202*-games-web1.com^
+||ad*.mellesleg.hu^
 ||postnord-post.
 ||countly-
 ||countly.
@@ -750,6 +732,7 @@ flipdish-cookie-consent*
 ||under-click.
 ||google-yandex.
 ||mizunooutlet*
+||aupost-delivered.
 ||rehs.*.hu^
 ||cdn*.swaxis.com^
 ||srmdata-*.com^
@@ -877,6 +860,7 @@ flipdish-cookie-consent*
 ||hbbtv.*.de^
 ||cpro.
 ||impservice*.youdao.com^
+||d*.ruiwen.com^
 ||metro-trending-*.amazonaws.com^
 ||8*.tianya.cn^
 ||nv-ad*.24hstatic.com^
@@ -937,6 +921,7 @@ flipdish-cookie-consent*
 ||s*.web.flashx.co^
 ||adpic.
 ||xn--wxtr9fwyxk9c.*^
+||d*.xinshipu.com^
 ||p*-ad-sign.byteimg.com^
 ||biz5.
 ||icast.
