@@ -1,4 +1,4 @@
-# Update time: 2026-06-21 22:14:37
+# Update time: 2026-06-22 12:25:25
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -124,11 +124,11 @@
 ||ads*-adnow.com^
 ||kbox-analytics-prod.s*.amazonaws.com^
 ||asd8900.oss-*.aliyuncs.com^
-||ky891.oss-*.aliyuncs.com^
 ||iptracker-lb-*.amazonaws.com^
 ||ali-bj-pcdn-*.biliapi.net^
 ||ce-global-track-*.amazonaws.com^
 ||customerevents.us-east-*.internal.dradis.netflix.com^
+||d*.ruiwen.com^
 ||device-metrics-us*.amazon.com^
 ||ana*.inews24.com^
 ||ac*.786ip.com^
@@ -302,6 +302,7 @@
 ||mon-*.tiktokv.com^
 ||client.rum.*.amazonaws.com^
 ||pixelapi-*.cs.mysamba.tv^
+||at*.doubanio.com^
 ||acr-*-prd.samsungcloud.tv^
 ||mon*-*.tiktokv.com^
 ||collector-*.px-client.net^
@@ -381,8 +382,8 @@
 ||polaris*-normal-*.zijieapi.com^
 ||analytics*.carambo.la^
 ||chat*-ce.chatdealer.jp^
-||ya*.dwstatic.com^
 ||track-*.hungrypanda.co^
+||d*.xinshipu.com^
 ||geoloc*.9cd47096ab1495d8d3b18667f6a52b9c.com^
 ||tracking-*.trnox.com^
 ||telemetry.*.pvp.net^
@@ -401,13 +402,16 @@
 ||pixel-*.convertagain.net^
 ||analytics*.prezly.com^
 ||collector*.ex.co^
-||vns86.oss-*.aliyuncs.com^
 ||bc.geocities.
 ||stw.extreme-down.
 ||67.21.92.*.gif
 analytics-*.aasaam.com
 ||matt.mercadolibre.
+||tccd.douglas.
+||ub.galaxus.
 ||molpmh.xyz|
+||adservice.google.
+||servo-report.dvdfab.
 %2Fopen.aspx%3F
 ||analytics-api.dvdfab.
 ||gamenguide.com*adbk
@@ -422,6 +426,7 @@ Banner468x60
 ||ads*.opensubtitles.org^
 rgmechanicsgames.com*VPN.exe
 ||38.33.15.*.gif
+||ubt.tracking.shopee.
 ||sst.carwow.
 @@||cdn*.porn300.com^
 ||stats.zone-telechargement.
@@ -434,6 +439,7 @@ rgmechanicsgames.com*VPN.exe
 |167.206.10.148^
 ||sta.wawacity.
 ||107.167.16.*.gif
+||pixel.archive.
 ||aviasales.*-analytics.
 %2Fevent.gif%3F
 @@||cdn-msp*.18comic*.*^
@@ -456,33 +462,36 @@ rgmechanicsgames.com*VPN.exe
 ||sidekickopen*.com^
 ||wms*.zoho.eu^
 ||contents*.00110.citi.com^
-||tw-726620180914.*.run.app^
 ||sax*.sina.
+||pijama.*.elasticbeanstalk.com^
+||res*.pinpai8.cn^
+||util-*.simply-hentai.com^
+||ya*.dwstatic.com^
+||142.91.159.
+||23.109.87.
+||static*.365inews.com^
+||tw-726620180914.*.run.app^
 ||widgets.*.webengage.com^
 ||zhizhizhizhi.oss-*.aliyuncs.com^
-||pijama.*.elasticbeanstalk.com^
 ||tupian888.*.bcebos.com^
-||res*.pinpai8.cn^
 ||23.109.82.
 ||get-me-wow.
 ||fapnado.*.php|
 ||itechpost.com*adbk
 ||fpb1.chinacar.
-||util-*.simply-hentai.com^
 ||158.247.208.
-||142.91.159.
 ||js*.abolezi.com^
-||23.109.87.
 ||union*.365inews.com^
-||static*.365inews.com^
+||qpb*.sohu.com^
 ||s*.skencituer.com^
 ||zbb.bbb.*.pics^
+||vns86.oss-*.aliyuncs.com^
+||ky891.oss-*.aliyuncs.com^
 ||hitcrypt.
 d4?appid*type*
 ||data.anisearch.
 directtrack.*.js
 ||invenio_tracking_*.sgnapps.com^
-@@|www.auslogics.com|
 ||adserver*.euroweeklynews.com^
 ||an.yandex.
 ||gtmdev.jabra.
@@ -494,6 +503,7 @@ directtrack.*.js
 ||videoadblockers.
 ||t-mobile-*.bond^
 |load.sst.
+||ctt-post-prt.
 ||americanconsultantrx.
 ||iphone-caviar.ru*entranceId
 ||w*statistics.info^
@@ -531,6 +541,7 @@ directtrack.*.js
 ||alishop*.ru^
 ||ad*.wisenut.co.kr^
 ||redir-pw*.com^
+||auspost-redirection.
 ||ausposehelp.
 ||pixel*.adswizz.com
 ||banner*.kinogo.by^
@@ -559,7 +570,6 @@ directtrack.*.js
 ||inpoost-pl.
 ||adidasoutlet*
 ||goodadvert.
-||free-discordnitro.
 ||aupostrackse.*
 ||acrxcoupons.
 ||hhba0*kdh.com^
@@ -579,13 +589,13 @@ jquery-eu-cookie-law-popup*
 ||posten-nno.
 ||counter*.freecounter.ovh^
 ||asicsoutlet*
+||aupostracks.
 ||auspostdeliver1.
 cookiePolicyEUPopin*
 ||cttposteprt.
 ||t-mobiile-*.bond^
 ||aupost-tracknow.
 ||track.zalando.
-||aupostmanage.
 ||seller-log-collector.shopee.
 ||cttpostprt.
 ||skpostl-sk.
@@ -664,7 +674,6 @@ flipdish-cookie-consent*
 ||nor-pw*.com^
 ||videoadblockerpro.
 ||iphone17promaxbrandnew*.edgeone.dev^
-||giveawaycord.
 |1x1.cz|
 ||auspost-delivered.
 |id.server|
@@ -687,7 +696,6 @@ flipdish-cookie-consent*
 ||eclog*-*.cafe24.com^
 |samsungqbe.com^
 ||underclick.
-||profitablecpm*.com^
 ||1xbet-*.com^
 ||googleadservices.
 ||advertising.civitai.
@@ -717,7 +725,6 @@ flipdish-cookie-consent*
 ||cdn*.swaxis.com^
 ||srmdata-*.com^
 ||adimg*.search.naver.net^
-||csgogift*.xyz^
 ||gitcoin-grants.
 ||icq-window.
 ||aupostmings.
@@ -734,6 +741,7 @@ flipdish-cookie-consent*
 ||highercaptchasettle.
 ||collector.hamsterix.
 ||h3v9p8x2q1r7-agckaeh6g2ehcaes.*.azurewebsites.net^
+||aupost-eparcels.
 ||gitlab.git.git.
 ||me9ddf.moebelix.
 ||dotagift*.xyz^
@@ -756,7 +764,6 @@ flipdish-cookie-consent*
 ||vst.videolink.
 ||au-postags.
 |load.gtm.
-||discord-give.
 ||postten-no.
 ||tur-ptt-posen.
 ||ad*.thisisgame.com^
@@ -775,7 +782,6 @@ flipdish-cookie-consent*
 ||xdyn0*jy.com^
 ||gitcoin-rewards.
 ||sgtm.wimdu.
-||pubggf*.xyz^
 ||megapari-*.com^
 ||snowplow-collector.
 ||secure-0*.ddnss.ch^
@@ -793,6 +799,7 @@ flipdish-cookie-consent*
 ||aupostsent.
 ||freevideoadblock.
 ||auspostredirecting.
+||americanconsultantsrx.
 ||collector.xhamster*.
 ||poptraf.
 ||auspostdelivery1.
@@ -805,7 +812,6 @@ flipdish-cookie-consent*
 ||adsfile.
 ||play2.flashx.
 ||dm-*.toutiao.com^
-||adservice.google.
 ||zalo-ads*.zadn.vn^
 ||bj*.9669.cn^
 ||ad-*.net^
@@ -838,13 +844,9 @@ flipdish-cookie-consent*
 ||marketplace-ios-*.hyprmx.com^
 ||xn--xhq9mt12cf5v.*^
 ||218.26.217.*.html
-||qpb*.sohu.com^
 ||hbbtv.*.de^
 ||cpro.
 ||impservice*.youdao.com^
-||tccd.douglas.
-||d*.ruiwen.com^
-||servo-report.dvdfab.
 ||metro-trending-*.amazonaws.com^
 ||8*.tianya.cn^
 ||nv-ad*.24hstatic.com^
@@ -854,7 +856,6 @@ flipdish-cookie-consent*
 ||adsense.
 ||imp*.tradedoubler.com^
 ||ac*.pingguolv.com^
-||at*.doubanio.com^
 ||adsame.
 ||mkto-*.com^
 ||dm*.yxlady.com^
@@ -879,7 +880,6 @@ flipdish-cookie-consent*
 ||vente-unique.*^
 ||omgmta*.*^
 ||tuiguang.*^
-||ubt.tracking.shopee.
 ||api.*.hismarttv.com^
 ||adserver.*^
 ||teasernet.
@@ -890,7 +890,6 @@ flipdish-cookie-consent*
 ||engage.3m*^
 ||adm*.autoimg.cn^
 ||ads*-normal-hl.zijieapi.com^
-||pixel.archive.
 ||ad-*.com^
 ||122.225.103.*.htm
 ||dm*.ppzuowen.com^
@@ -900,7 +899,6 @@ flipdish-cookie-consent*
 ||admob.*^
 ||adserver.
 ||fls-*.amazon.com^
-||ub.galaxus.
 ||ping.*.sogou.com^
 ||adsmogo*.*^
 ||play1.flashx.
@@ -910,7 +908,6 @@ flipdish-cookie-consent*
 ||s*.web.flashx.co^
 ||adpic.
 ||xn--wxtr9fwyxk9c.*^
-||d*.xinshipu.com^
 ||p*-ad-sign.byteimg.com^
 ||biz5.
 ||icast.
