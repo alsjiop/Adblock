@@ -1,4 +1,4 @@
-# Update time: 2026-06-23 01:00:37
+# Update time: 2026-06-23 11:42:18
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -28,6 +28,9 @@
 ||imgpfx.arenavision.
 ||player-feedback*.glomex.*^
 ||ad.kisstvshow.*^
+||m7k4.com*.php?
+||minero-proxy-*now.sh
+||ad*.aginomoto.com
 ||ads-*-nfl.yinzcam.com^
 ||ads*.production-public.tubi.io^
 ||adx-*.op.dbankcloud.com.edgekey.net^
@@ -74,9 +77,6 @@
 ||banner.*.tccapis.com^
 ||cdn-adn-*.rayjump.com^
 ||adcs-*.myappsget.com^
-||m7k4.com*.php?
-||minero-proxy-*now.sh
-||ad*.aginomoto.com
 ||pixel*.production-public.tubi.io^
 ||host*.nti.nl^
 ||ad-host-backup-*.s3.*.aliyuncs.com^
@@ -130,7 +130,6 @@
 ||ali-bj-pcdn-*.biliapi.net^
 ||ce-global-track-*.amazonaws.com^
 ||customerevents.us-east-*.internal.dradis.netflix.com^
-||d*.ruiwen.com^
 ||device-metrics-us*.amazon.com^
 ||ana*.inews24.com^
 ||ac*.786ip.com^
@@ -373,7 +372,6 @@
 ||log-*.zadn.vn^
 ||api*.moengage.com^
 ||hba*.hepsiburada.com^
-||reachableads-av.*.amazonaws.com^
 ||bdcpro*.techweb.com.cn^
 ||qn-*pcdn.cdn.msstatic.com^
 ||mon-va*.capcutapi.com^
@@ -384,10 +382,8 @@
 ||bdlm*.hc360.com^
 ||polaris*-normal-*.zijieapi.com^
 ||analytics*.carambo.la^
-||chat*-ce.chatdealer.jp^
 ||ya*.dwstatic.com^
 ||track-*.hungrypanda.co^
-||d*.xinshipu.com^
 ||geoloc*.9cd47096ab1495d8d3b18667f6a52b9c.com^
 ||tracking-*.trnox.com^
 ||telemetry.*.pvp.net^
@@ -412,8 +408,11 @@
 ||67.21.92.*.gif
 analytics-*.aasaam.com
 ||matt.mercadolibre.
+||tccd.douglas.
+||ub.galaxus.
 ||molpmh.xyz|
 ||adservice.google.
+||servo-report.dvdfab.
 %2Fopen.aspx%3F
 ||analytics-api.dvdfab.
 ||gamenguide.com*adbk
@@ -424,9 +423,11 @@ analytics-*.aasaam.com
 @@||r.*.awstrack.me^
 ||analytics.ticketmaster.
 Banner468x60
+||1024wanzhai.
 ||ads*.opensubtitles.org^
 ||tw-726620180914.*.run.app^
 rgmechanicsgames.com*VPN.exe
+||ubt.tracking.shopee.
 ||fapnado.*.php|
 ||sst.carwow.
 ||itechpost.com*adbk
@@ -434,6 +435,7 @@ rgmechanicsgames.com*VPN.exe
 ||stats.zone-telechargement.
 @@||cdn-msp*.18comic.*^
 ||fpb1.chinacar.
+||tracker.twenga.
 ||158.247.208.
 ||stats.zone-annuaire.
 ||df.infra.sz.shopee.
@@ -464,6 +466,7 @@ rgmechanicsgames.com*VPN.exe
 ||sidekickopen*.com^
 ||wms*.zoho.eu^
 ||contents*.00110.citi.com^
+||reachableads-av.*.amazonaws.com^
 ||sax*.sina.
 ||widgets.*.webengage.com^
 ||38.33.15.*.gif
@@ -472,6 +475,7 @@ rgmechanicsgames.com*VPN.exe
 ||23.109.82.
 ||get-me-wow.
 728x90.jpg|
+||chat*-ce.chatdealer.jp^
 ||142.91.159.
 ||js*.abolezi.com^
 ||allsportsflix.
@@ -724,7 +728,6 @@ flipdish-cookie-consent*
 ||best-prizes-202*.com^
 ||sher.*.hu^
 ||web-visor.
-||1024wanzhai.
 ||under-click.
 ||google-yandex.
 ||mizunooutlet*
@@ -764,7 +767,6 @@ flipdish-cookie-consent*
 ||aupost-adam.
 ||dlglpost.
 ||aupost-tracks.
-||gitcoin-application.
 ||rotaban.
 ||analytics.vgtimes.
 ||cnt.proporn.
@@ -858,8 +860,7 @@ flipdish-cookie-consent*
 ||hbbtv.*.de^
 ||cpro.
 ||impservice*.youdao.com^
-||tccd.douglas.
-||servo-report.dvdfab.
+||d*.ruiwen.com^
 ||metro-trending-*.amazonaws.com^
 ||8*.tianya.cn^
 ||nv-ad*.24hstatic.com^
@@ -874,7 +875,6 @@ flipdish-cookie-consent*
 ||dm*.yxlady.com^
 ||ads.
 ||gg*.miguvideo.com^
-||tracker.twenga.
 ||stat.
 ||minero-proxy-*.sh^
 ||qchannel*.cn^
@@ -892,7 +892,6 @@ flipdish-cookie-consent*
 ||vente-unique.*^
 ||omgmta*.*^
 ||tuiguang.*^
-||ubt.tracking.shopee.
 ||api.*.hismarttv.com^
 ||adserver.*^
 ||teasernet.
@@ -912,7 +911,6 @@ flipdish-cookie-consent*
 ||admob.*^
 ||adserver.
 ||fls-*.amazon.com^
-||ub.galaxus.
 ||ping.*.sogou.com^
 ||adsmogo*.*^
 ||play1.flashx.
@@ -922,6 +920,7 @@ flipdish-cookie-consent*
 ||s*.web.flashx.co^
 ||adpic.
 ||xn--wxtr9fwyxk9c.*^
+||d*.xinshipu.com^
 ||p*-ad-sign.byteimg.com^
 ||biz5.
 ||icast.
