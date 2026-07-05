@@ -61,13 +61,14 @@ application:
       #- 'https://github.com/ilxp/koolproxy/blob/main/rules/yhosts.txt' #name:Yhosts规则
       #- 'https://github.com/ilxp/koolproxy/raw/main/rules/steven.txt' #name:StevenBlack规则
       #uBlock内置规则
-      - 'https://cdn.jsdelivr.net/gh/uBlockOrigin/uAssetsCDN@main/filters/filters.txt' #name: uBlock filters
-      - 'https://ublockorigin.pages.dev/filters/badware.txt' #name: uBlock filters – Badware risks
-      - 'https://gitcdn.link/cdn/uBlockOrigin/uAssetsCDN/main/filters/privacy.txt' #name: uBlock filters – Privacy
-      - 'https://ublockorigin.github.io/uAssets/filters/quick-fixes.txt' #name: uBlock filters – Quick fixes
-      - 'https://cdn.statically.io/gh/uBlockOrigin/uAssetsCDN/main/filters/resource-abuse.txt' #name: uBlock filters – Resource abuse
-      - 'https://gitcdn.link/cdn/uBlockOrigin/uAssetsCDN/main/filters/unbreak.txt' #name: uBlock filters – Unbreak
+      - 'https://raw.githubusercontent.com/uBlockOrigin/uAssets/refs/heads/master/filters/filters.txt' #name: uBlock filters
+      - 'https://raw.githubusercontent.com/uBlockOrigin/uAssets/refs/heads/master/filters/badware.txt' #name: uBlock filters – Badware risks
+      - 'https://raw.githubusercontent.com/uBlockOrigin/uAssets/refs/heads/master/filters/privacy.txt' #name: uBlock filters – Privacy
+      - 'https://raw.githubusercontent.com/uBlockOrigin/uAssets/refs/heads/master/filters/quick-fixes.txt' #name: uBlock filters – Quick fixes
+      - 'https://raw.githubusercontent.com/uBlockOrigin/uAssets/refs/heads/master/filters/resource-abuse.txt' #name: uBlock filters – Resource abuse
+      - 'https://raw.githubusercontent.com/uBlockOrigin/uAssets/refs/heads/master/filters/unbreak.txt' #name: uBlock filters – Unbreak
       - 'https://filters.adtidy.org/extension/ublock/filters/11.txt' #name: AdGuard Mobile Ads移动设备
+      #AdGuard
       #自用
       - 'https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_plus.txt' #name: Cats-Team-filters
       - 'https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt' #name: Cats-Team-dns
