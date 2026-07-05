@@ -15,7 +15,6 @@ application:
       - 'https://cdn.jsdelivr.net/gh/hoshsadiq/adblock-nocoin-list/hosts.txt'  #adblock-nocoin-list
       - 'https://cdn.jsdelivr.net/gh/durablenapkin/scamblocklist/adguard.txt' #Scam Blocklist
       #- 'https://someonewhocares.org/hosts/zero/hosts' #Dan Pollock's List
-      #- 'https://cdn.jsdelivr.net/gh/AdguardTeam/FiltersRegistry/filters/filter_15_DnsFilter/filter.txt' #AdGuard DNS filter
       - 'https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&showintro=1&mimetype=plaintext' #Peter Lowe's List
       #- 'https://abp.oisd.nl/basic/' #OISD Blocklist Basic
       #- 'https://adaway.org/hosts.txt' #AdAway Default Blocklist
@@ -25,13 +24,9 @@ application:
       #- 'https://cdn.jsdelivr.net/gh/VeleSila/yhosts/hosts.txt' #yhosts
       #- 'https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts' #大圣净化
       #- 'https://gitlab.com/quidsup/notrack-blocklists/-/raw/master/trackers.list' #Domains classified as tracking or advertising
-      #- 'https://code.gitlink.org.cn/hacamer/AdRules/raw/branch/main/adguard-full.txt' #AdRules AdGuard Full List
-      #- 'https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt' #adguard base
       #自用添加↓
       #- 'https://anti-ad.net/easylist.txt' #name: anti-AD
       #- 'https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts' #name: StevenBlack/hosts规则
-      #- 'https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/combined_disguised_trackers.txt' #name: AdGuard CNAME 伪装跟踪器列表
-      #- 'https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt' #name: AdGuard DNS filter
       - 'https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN.txt' #name: AdditionalFiltersCN
       #- 'https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt' #name: ADgk 移动广告规则
       #- 'https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt' #name: 乘风 广告过滤规则
@@ -46,7 +41,6 @@ application:
       #- 'https://www.trli.club/ad-hosts/ad-hosts-sqlist/ad-adguardhome-dnstype.txt' #name: 冷莫(trli)AdHosts-Sqlist
       #- 'https://file.trli.club:2087/ad-youtube-hosts/ad-youtube-adguardhome-dnstype.txt' #name: 冷莫(trli)Ad-YouTuBe-Hosts
       #- 'https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt' #name: 杏稍AdRules DNS List
-      #- 'https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/AdGuard/Advertising/Advertising.txt' #name: AdGuard_blackmatrix7合并
       #- 'https://raw.githubusercontent.com/zsakvo/AdGuard-Custom-Rule/master/rule/zhihu.txt' #name: 知乎 普通版
       - 'https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt' #name: 217heidai/adblockfilters去重合并(比较大)
       - 'https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt' #name: 217heidai/adblockdns
@@ -67,8 +61,19 @@ application:
       - 'https://raw.githubusercontent.com/uBlockOrigin/uAssets/refs/heads/master/filters/quick-fixes.txt' #name: uBlock filters – Quick fixes
       - 'https://raw.githubusercontent.com/uBlockOrigin/uAssets/refs/heads/master/filters/resource-abuse.txt' #name: uBlock filters – Resource abuse
       - 'https://raw.githubusercontent.com/uBlockOrigin/uAssets/refs/heads/master/filters/unbreak.txt' #name: uBlock filters – Unbreak
-      - 'https://filters.adtidy.org/extension/ublock/filters/11.txt' #name: AdGuard Mobile Ads移动设备
+      - 'https://github.com/uBlockOrigin/uAssets/raw/refs/heads/master/filters/annoyances-cookies.txt' #name: uBlock filters – Cooike Notice
       #AdGuard
+      - 'https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/refs/heads/master/filters/filter_224_Chinese/filter.txt' #name: AdGuard filters - Chinese 
+      - 'https://github.com/AdguardTeam/FiltersRegistry/raw/refs/heads/master/filters/filter_18_Annoyances_Cookies/filter.txt' #name: AdGuard filters – Cooike Notice
+      - 'https://github.com/AdguardTeam/FiltersRegistry/raw/refs/heads/master/filters/filter_11_Mobile/filter.txt' #name: AdGuard Mobile Ads移动设备
+      #- 'https://cdn.jsdelivr.net/gh/AdguardTeam/FiltersRegistry/filters/filter_15_DnsFilter/filter.txt' #AdGuard DNS filter
+      #- 'https://code.gitlink.org.cn/hacamer/AdRules/raw/branch/main/adguard-full.txt' #AdRules AdGuard Full List
+      #- 'https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt' #adguard base
+      #- 'https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/combined_disguised_trackers.txt' #name: AdGuard CNAME 伪装跟踪器列表
+      #- 'https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt' #name: AdGuard DNS filter
+      #- 'https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/AdGuard/Advertising/Advertising.txt' #name: AdGuard_blackmatrix7合并
+      #Easylist
+      - 'https://github.com/easylist/easylist/raw/refs/heads/master/easylist_cookie/easylist_cookie_general_block.txt' #name: Easylist -– Cooike Notice
       #自用
       - 'https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_plus.txt' #name: Cats-Team-filters
       - 'https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt' #name: Cats-Team-dns
