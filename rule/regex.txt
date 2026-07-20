@@ -1,4 +1,4 @@
-# Update time: 2026-07-20 11:19:40
+# Update time: 2026-07-20 22:08:36
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -17,6 +17,7 @@
 
 # 每12小时同步一次、如有误杀、请手动解除
 
+||report.*.qq.com^
 ||yandex.avito.www.
 ||booklng.com-*
 ||yandex.avito.sber*
@@ -24,7 +25,6 @@
 ||avito.avito.www.avito.
 ||avito.avito.avito.
 ||yandex.pay.avito.
-||report.*.qq.com^
 ||data.anisearch.
 ||telemetry*.transcend.io^
 ||stw.zone-telechargement.
@@ -81,20 +81,25 @@
 ||cdn-adn-*.rayjump.com^
 ||adcs-*.myappsget.com^
 ||sax*.sina.
+||bdcpro*.techweb.com.cn^
 ||67.21.92.*.gif
 ||uc*.atobo.com^
 ||res*.pinpai8.cn^
 ||impservice*.youdao.com^
+||d*.ruiwen.com^
 ||fanpingbi*.gaokao.com^
 ||dn*.ixinwei.com^
+||bdlm*.hc360.com^
 ||ya*.dwstatic.com^
 ||ad*.on.cc^
+||d*.xinshipu.com^
 ||fpb*.51edu.com^
 ||ja*.gamersky.com^
 ||static*.365inews.com^
 ||ysdm*.ys137.com.cn^
 ||107.167.22.*.gif
 ||tw-726620180914.*.run.app^
+||dm*.yxlady.com^
 ||38.33.15.*.gif
 ||zhizhizhizhi.oss-*.aliyuncs.com^
 ||adi*.cnool.net^
@@ -102,12 +107,14 @@
 ||same*.stockstar.com^
 ||gcw*.2liang.cn^
 ||impservice*.yodao.com^
+||fpb1.chinacar.
 ||ax.*.ifeng.com^
 ||121.204.246.*.gif
 ||js*.abolezi.com^
 ||sam*.baby-kingdom.com^
 ||107.167.16.*.gif
 ||zbb.bbb.*.pics^
+||qpb*.sohu.com^
 ||union*.365inews.com^
 ||vns86.oss-*.aliyuncs.com^
 ||asd8900.oss-*.aliyuncs.com^
@@ -211,6 +218,7 @@
 ||device-metrics-*.amazon.com^
 ||track.*.roku.com^
 ||install*.zonastat.com^
+||widgets.*.webengage.com^
 ||ads*.depositfiles.com^
 ||aj1*.online^
 ||aff*.kolektiva.net^
@@ -241,7 +249,6 @@
 ||collector-*.px-cloud.net^
 ||collector-*.tvsquared.com^
 ||mcs.*.tiktok.com^
-||rtb-*.anysex.com^
 ||log-*.previewnetworks.com^
 ||counter*-yadro*-ru.unblocked.lol^
 ||mads*z.com^
@@ -308,6 +315,7 @@
 ||datacollector-*.dt.dbankcloud.cn^
 ||mtag-*.wedevs.com^
 ||n*adserv.com^
+||s*.skencituer.com^
 ||apiproxy-log-nlb-1f304af4d3ac01a4.elb.us-east-*.amazonaws.com^
 ||batchlogging*-noneu.truecaller.com^
 ||apple-*.le.com^
@@ -396,14 +404,12 @@
 ||api*.moengage.com^
 ||hba*.hepsiburada.com^
 ||reachableads-av.*.amazonaws.com^
-||bdcpro*.techweb.com.cn^
 ||qn-*pcdn.cdn.msstatic.com^
 ||mon-va*.capcutapi.com^
 ||js.*2023*.live^
 ||collect-v*.51.la^
 ||logger-*.dailymotion.com^
 ||ping*.bidease.com^
-||bdlm*.hc360.com^
 ||polaris*-normal-*.zijieapi.com^
 ||analytics*.carambo.la^
 ||chat*-ce.chatdealer.jp^
@@ -437,10 +443,9 @@ analytics-*.aasaam.com
 ||allsportsflix.
 ||sta.zone-telechargement.
 ||bondzgi*.
-||23.109.87.
 ||etargetnet.*.hu^
 ||adservice.google.co.*
-||get-me-wow.
+||23.109.82.
 ||analytics.vgtimes.
 ||ubt.tracking.shopee.
 ||advert*.ultraweb.hu^
@@ -449,6 +454,7 @@ analytics-*.aasaam.com
 ||itechpost.com*adbk
 @@||cdn*.porn300.com^
 ||stats.zone-telechargement.
+||158.247.208.
 ||df.infra.sz.shopee.
 ||mr.allegro.
 ||onetrust.
@@ -466,13 +472,13 @@ analytics-*.aasaam.com
 ||banner*.kinogo.by^
 ||molpmh.xyz|
 ||servo-report.dvdfab.
+|a.klaviyo.com^
 ||ad.*.doubleclick.net^
 ||analytics.ahrefs.
 %2Fopen.aspx%3F
 ||basvformu*.xyz^
 %2Frw%2Fbeacon_
 ||adserver1.
-||142.91.159.
 ||ad*.mellesleg.hu^
 ||ads-*.v.ssp.yahoo.com^
 @@||r.*.awstrack.me^
@@ -500,13 +506,12 @@ rgmechanicsgames.com*VPN.exe
 @@||cdn-msp*.18comic*.*^
 ||df.infra.shopee.
 ||gamenguide.com*adbk
-||widgets.*.webengage.com^
 728x90.jpg|
 ||util-*.simply-hentai.com^
-||158.247.208.
-||23.109.82.
-||s*.skencituer.com^
-||fpb1.chinacar.
+||get-me-wow.
+||142.91.159.
+||rtb-*.anysex.com^
+||23.109.87.
 ||mt[0-9]*.google.cn^
 ||usage-us-*.myhomescreen.tv^
 ||is-not-certiﬁed.com^
@@ -796,7 +801,6 @@ flipdish-cookie-consent*
 |dominiosvision.com|
 ||q*-publick.club^
 ||minitds-*.info^
-|a.klaviyo.com^
 ||acrxcoupon.
 ||snowplow-collector-*.amazonaws.com^
 ||thegreatesthits.
@@ -866,10 +870,8 @@ flipdish-cookie-consent*
 ||marketplace-ios-*.hyprmx.com^
 ||xn--xhq9mt12cf5v.*^
 ||218.26.217.*.html
-||qpb*.sohu.com^
 ||hbbtv.*.de^
 ||cpro.
-||d*.ruiwen.com^
 ||metro-trending-*.amazonaws.com^
 ||8*.tianya.cn^
 ||nv-ad*.24hstatic.com^
@@ -881,7 +883,6 @@ flipdish-cookie-consent*
 ||ac*.pingguolv.com^
 ||adsame.
 ||mkto-*.com^
-||dm*.yxlady.com^
 ||ads.
 ||gg*.miguvideo.com^
 ||stat.
@@ -929,13 +930,13 @@ flipdish-cookie-consent*
 ||s*.web.flashx.co^
 ||adpic.
 ||xn--wxtr9fwyxk9c.*^
-||d*.xinshipu.com^
 ||p*-ad-sign.byteimg.com^
 ||biz5.
 ||icast.
 ||cnzz.
 ||bllzgqbyp^
 ||dsp*.youdao.com^
+||s*.site.flashx.cc^
 ||play4.flashx.
 ||guanggao*.*^
 ||admicro*.vcmedia.com^
