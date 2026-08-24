@@ -1,4 +1,4 @@
-# Update time: 2026-08-24 09:21:06
+# Update time: 2026-08-24 20:52:26
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -130,9 +130,9 @@ analytics-*.aasaam.com
 ||sd.yhzzzs*.com^
 ||trace-*.free-reels.com^
 |load.sst.
-||allsportsflix.
 ||iphone-caviar.ru*entranceId
 ||w*statistics.info^
+||prebid-*.rubiconproject.com^
 ||log*-normal-*.tiktokv.com
 ||sgtm.fashionunited.
 ||partner.superbahisaffiliates*.com^
@@ -152,6 +152,7 @@ analytics-*.aasaam.com
 ||real*traf.ru^
 ||wa.gmx.
 ||zbc6hy*.live^
+||pxl-*.ozone.ru^
 ||cnt.yeptube.
 ||alishop*.ru^
 ||ad*.wisenut.co.kr^
@@ -221,7 +222,6 @@ Banner468x60
 ||analytics.ahrefs.
 ||s*.adduplex.com^
 ||adserver1.
-||142.91.159.
 ||ad*.mellesleg.hu^
 ||countly-
 ||countly.
@@ -236,8 +236,8 @@ rgmechanicsgames.com*VPN.exe
 ||yhsfsdv*.com^
 ||thezbpe5*.xyz^
 ||report.*.gbqofs.io^
-||fapnado.*.php|
 ||tracking.geo.*.amazonaws.com^
+||query*.petametrics.com^
 ||button.blogs.yandex.
 ||sta.wawacity.
 ||servo-report.keepstreams.*^
@@ -254,6 +254,7 @@ rgmechanicsgames.com*VPN.exe
 ||etargetnet.*.hu^
 ||ulog-*.ksapisrv.com^
 ||rum*.cdnvideo.ru^
+||qn-*pcdn.cdn.huya.com^
 ||zazgiyoh*.world^
 ||adservice.google.co.*
 ||u*.takru.com^
@@ -263,6 +264,7 @@ rgmechanicsgames.com*VPN.exe
 ||www.xxmh*.com^
 ||staging-*.ispot.tv^
 ||onetrust.
+||s*.skencituer.com^
 ||underclick.
 ||bc.geocities.
 ||tracking.*.miui.com^
@@ -271,6 +273,7 @@ rgmechanicsgames.com*VPN.exe
 ||servo-report.dvdfab.
 ||trk*.vidible.tv^
 ||pop-under.
+||prod.*.publishers.advertising.a2z.com^
 ||ads-*.v.ssp.yahoo.com^
 @@||r.*.awstrack.me^
 ||sher.*.hu^
@@ -300,10 +303,14 @@ rgmechanicsgames.com*VPN.exe
 ||zcchyw*.xyz^
 ||sdk.fra-*.braze.eu^
 ||me9ddf.moebelix.
+||prod.*.analytics.console.aws.a2z.com^
 ||sensorsdata*.read.duokan.com^
 ||dualstack.adbert-web-lbs-*.elb.amazonaws.com^
+||gamenguide.com*adbk
 ||ad*.bilgin.pro^
 ||tnc*.tiktokv.com^
+||px*.mediahills.ru^
+||23.109.87.
 ||ulog.*.kwai-pro.com^
 ||ubacollect-*.cloud.dbankcloud.cn^
 ||rotaban.
@@ -315,17 +322,18 @@ rgmechanicsgames.com*VPN.exe
 ||ulog*.kwaipros.com^
 ||vst.videolink.
 ||zbc6hye*.xyz^
+||promo-*.vercel.app^
 ||df.infra.sz.shopee.
 |load.gtm.
 ||ssp*.rtb.beeline.ru^
 ||pixel.archive.
 ||stats*.videonow.ru^
 ||ad*.thisisgame.com^
+||qn-*pcdn.cdn.msstatic.com^
 ||q*-publick.club^
 ||ub.galaxus.
 ||minitds-*.info^
 ||molpmh.xyz|
-|a.klaviyo.com^
 ||ad.*.doubleclick.net^
 %2Fopen.aspx%3F
 %2Frw%2Fbeacon_
@@ -338,6 +346,7 @@ rgmechanicsgames.com*VPN.exe
 ||spa-tracker*.spapi.io^
 ||popunder.
 @@||cdn-msp*.18comic.*^
+||quangcao-*.epicdn.me^
 ||rotator.
 |167.206.10.148^
 ||collector.xhamster*.
@@ -359,7 +368,6 @@ rgmechanicsgames.com*VPN.exe
 ||log*-normal-*.tiktokv.us^
 ||hw-sh-pcdn-*.biliapi.net^
 ||faro-collector-prod-*.grafana.net^
-||prebid-*.rubiconproject.com^
 ||lt*.tritondigital.com^
 ||api-*.hismarttv.com^
 ||eflbundles.*.com.tr^
@@ -378,7 +386,6 @@ rgmechanicsgames.com*VPN.exe
 ||analytics*.clickdimensions.com^
 ||bi-eventtracker-*.amazonaws.com^
 ||mon*-*.tiktokv.us^
-||pxl-*.ozone.ru^
 ||ads*-adnow.com^
 ||kbox-analytics-prod.s*.amazonaws.com^
 ||iptracker-lb-*.amazonaws.com^
@@ -457,7 +464,6 @@ rgmechanicsgames.com*VPN.exe
 ||fads*s.com^
 ||ads-dmp-collect.*.karrotmarket.com^
 ||collector-*.protechts.net^
-||query*.petametrics.com^
 ||attr-logs.*.amazonaws.com^
 ||firebaselogging-*.googleapis.com^
 ||gads*z.com^
@@ -478,7 +484,6 @@ rgmechanicsgames.com*VPN.exe
 ||host*.ncoi.nl^
 ||lively-collect-elb-*.amazonaws.com^
 ||analytics-rollout-*.amazonaws.com^
-||qn-*pcdn.cdn.huya.com^
 ||mssdk*.zijieapi.com^
 ||log-v*-boot.capcutapi.com^
 ||browser-intake-*-datadoghq.com^
@@ -502,7 +507,6 @@ rgmechanicsgames.com*VPN.exe
 ||gads*s.com^
 ||gscounters.*.gigya.com^
 ||fads*z.com^
-||prod.*.publishers.advertising.a2z.com^
 ||c*hit.zerkalo.io^
 ||mon-*.tiktokv.com^
 ||client.rum.*.amazonaws.com^
@@ -527,11 +531,9 @@ rgmechanicsgames.com*VPN.exe
 ||matomo-demo-*.amazonaws.com^
 ||hn-ping*.hashnode.com^
 ||mcdp-*.outbrain.com^
-||prod.*.analytics.console.aws.a2z.com^
 ||logstash-*.radio-canada.ca^
 ||api*.amplitude.com^
 ||app-analytics-*.snapchat.com^
-||px*.mediahills.ru^
 ||matomo.*.vn^
 ||log-*.isnssdk.com^
 ||appanalysis*.banggood.com^
@@ -548,13 +550,11 @@ rgmechanicsgames.com*VPN.exe
 ||host*.rvshare.com^
 ||log*-*.tiktokv.com^
 ||logs-*.rebxgame.com^
-||promo-*.vercel.app^
 ||data-track*.yingxiong.com^
 ||geoloc*.geostats.ovh^
 ||log-*.zadn.vn^
 ||api*.moengage.com^
 ||hba*.hepsiburada.com^
-||qn-*pcdn.cdn.msstatic.com^
 ||mon-va*.capcutapi.com^
 ||js.*2023*.live^
 ||collect-v*.51.la^
@@ -570,7 +570,6 @@ rgmechanicsgames.com*VPN.exe
 ||ad.*.360.cn^
 ||livetracker.*.pangea-cms.com^
 ||log*-normal-lq.toutiaoapi.com^
-||quangcao-*.epicdn.me^
 ||aem-collector-*.kgslb.com^
 ||analytics-ad-*.kgslb.com^
 ||aj2*.bid^
@@ -578,16 +577,16 @@ rgmechanicsgames.com*VPN.exe
 ||analytics*.prezly.com^
 ||collector*.ex.co^
 ||reachableads-av.*.amazonaws.com^
-||gamenguide.com*adbk
-||widgets.*.webengage.com^
 728x90.jpg|
-||util-*.simply-hentai.com^
+||widgets.*.webengage.com^
 ||158.247.208.
+||util-*.simply-hentai.com^
 ||23.109.82.
-||23.109.87.
+||142.91.159.
+||allsportsflix.
+||fapnado.*.php|
 ||rtb-*.anysex.com^
 ||itechpost.com*adbk
-||s*.skencituer.com^
 ||hostingcloud.*.wasm^
 ||mt[0-9]*.google.cn^
 ||usage-us-*.myhomescreen.tv^
@@ -812,6 +811,7 @@ flipdish-cookie-consent*
 ||git.git.git.git.
 |dominiosvision.com|
 ||xscp0*xq.com^
+|a.klaviyo.com^
 ||acrxcoupon.
 ||snowplow-collector-*.amazonaws.com^
 ||thegreatesthits.
@@ -938,7 +938,6 @@ flipdish-cookie-consent*
 ||cnzz.
 ||bllzgqbyp^
 ||dsp*.youdao.com^
-||s*.site.flashx.cc^
 ||play4.flashx.
 ||guanggao*.*^
 ||admicro*.vcmedia.com^
