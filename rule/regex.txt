@@ -1,4 +1,4 @@
-# Update time: 2026-09-03 11:25:26
+# Update time: 2026-09-03 23:57:53
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -128,7 +128,7 @@ analytics-*.aasaam.com
 ||tracking.olx.
 ||adservice.google.
 ||trace-*.free-reels.com^
-||allsportsflix.
+|load.sst.
 ||iphone-caviar.ru*entranceId
 ||w*statistics.info^
 ||log*-normal-*.tiktokv.com
@@ -148,6 +148,7 @@ analytics-*.aasaam.com
 ||gonews*.net^
 ||mr.allegro.
 ||real*traf.ru^
+||wa.gmx.
 ||zbc6hy*.live^
 ||cnt.yeptube.
 ||alishop*.ru^
@@ -158,11 +159,13 @@ analytics-*.aasaam.com
 ||cnt.nuvid.
 ||t*.playdigo.live^
 ||basvformu*.xyz^
+|load.ss.
 ||tnc16-*.hypic.com^
 ||wslog-global-dual.cool*cloud.com^
 ||linkexchange.
 ||pangolin*.sgsnssdk.com^
 ||sgtm.fairmont.
+Banner468x60
 ||analytics.streamfab.
 ||tnc*.tiktokv.us^
 ||ad*.tmgrup.com.tr^
@@ -170,6 +173,7 @@ analytics-*.aasaam.com
 ||goodadvert.
 ||stats.zone-annuaire.
 ||log.api-maps.yandex.
+||stat*.1internet.tv^
 ||rb*.design.ru^
 ||bar*.shinobi.jp^
 ||tracking-v*.a.run.app^
@@ -188,8 +192,10 @@ analytics-*.aasaam.com
 ||track.*.roku.com^
 ||rusrestbest.
 ||v.newsportal*.ru^
+||get-me-wow.
 ||ubt.tracking.shopee.
 ||as*.prog.hu^
+||itechpost.com*adbk
 ||cnt.tubeon.
 ||faro.civitai.
 ||videoclik.
@@ -204,6 +210,7 @@ analytics-*.aasaam.com
 ||stats.*.rongnav.com^
 ||zcchyr*.xyz^
 ||adverticum.*.hu^
+|load.sgtm.
 ||dw-informer-*.newsru.com^
 ||zaqlovh*.xyz^
 |piwik.
@@ -211,11 +218,11 @@ analytics-*.aasaam.com
 ||analytics.ahrefs.
 ||s*.adduplex.com^
 ||adserver1.
+||142.91.159.
 ||ad*.mellesleg.hu^
 ||countly-
 ||countly.
 ||backstory.ebay.
-rgmechanicsgames.com*VPN.exe
 ||pop-parad.
 ||mediacontext.
 ||videoclick.
@@ -224,6 +231,7 @@ rgmechanicsgames.com*VPN.exe
 ||stats-*.p2pnow.ru^
 ||yhsfsdv*.com^
 ||thezbpe5*.xyz^
+||fapnado.*.php|
 ||tracking.geo.*.amazonaws.com^
 ||button.blogs.yandex.
 ||sta.wawacity.
@@ -258,6 +266,7 @@ rgmechanicsgames.com*VPN.exe
 ||web-visor.
 ||ads*.opensubtitles.org^
 ||under-click.
+||stat.*.v-56.com^
 ||stats.mapple.*^
 ||xy-*pcdn.msstatic.com^
 ||rehs.*.hu^
@@ -279,6 +288,7 @@ rgmechanicsgames.com*VPN.exe
 ||zcchyw*.xyz^
 ||me9ddf.moebelix.
 ||dualstack.adbert-web-lbs-*.elb.amazonaws.com^
+||gamenguide.com*adbk
 ||ad*.bilgin.pro^
 ||tnc*.tiktokv.com^
 ||ulog.*.kwai-pro.com^
@@ -292,8 +302,8 @@ rgmechanicsgames.com*VPN.exe
 ||ulog*.kwaipros.com^
 ||vst.videolink.
 ||zbc6hye*.xyz^
-||158.247.208.
 ||df.infra.sz.shopee.
+|load.gtm.
 ||pixel.archive.
 ||stats*.videonow.ru^
 ||ad*.thisisgame.com^
@@ -301,6 +311,7 @@ rgmechanicsgames.com*VPN.exe
 ||ub.galaxus.
 ||minitds-*.info^
 ||molpmh.xyz|
+|a.klaviyo.com^
 ||ad.*.doubleclick.net^
 %2Fopen.aspx%3F
 %2Frw%2Fbeacon_
@@ -313,6 +324,7 @@ rgmechanicsgames.com*VPN.exe
 ||popunder.
 @@||cdn-msp*.18comic.*^
 ||rotator.
+|167.206.10.148^
 ||collector.xhamster*.
 ||aviasales.*-analytics.
 ||poptraf.
@@ -380,7 +392,6 @@ rgmechanicsgames.com*VPN.exe
 ||logservice-*.platform.dbankcloud.cn^
 ||clickstream-*.homedepot.com^
 ||log*-normal-useast1a.lemon8-app.com^
-||stat*.1internet.tv^
 ||analyzer*.fc2.com^
 ||dj1*.online^
 ||log*.byteoversea.com^
@@ -423,7 +434,6 @@ rgmechanicsgames.com*VPN.exe
 ||collector-*.px-cloud.net^
 ||collector-*.tvsquared.com^
 ||mcs.*.tiktok.com^
-||rtb-*.anysex.com^
 ||log-*.previewnetworks.com^
 ||counter*-yadro*-ru.unblocked.lol^
 ||mads*z.com^
@@ -477,7 +487,6 @@ rgmechanicsgames.com*VPN.exe
 ||datacollector-*.dt.dbankcloud.cn^
 ||mtag-*.wedevs.com^
 ||n*adserv.com^
-||s*.skencituer.com^
 ||apiproxy-log-nlb-1f304af4d3ac01a4.elb.us-east-*.amazonaws.com^
 ||batchlogging*-noneu.truecaller.com^
 ||apple-*.le.com^
@@ -500,7 +509,6 @@ rgmechanicsgames.com*VPN.exe
 ||collector-*.px-client.net^
 ||ej1*.online^
 ||log-*.epicdn.me^
-||stat.*.v-56.com^
 ||adcounter*.uptolike.ru^
 ||metric*.rediff.com^
 ||ac*.faxingchina.com^
@@ -555,7 +563,6 @@ rgmechanicsgames.com*VPN.exe
 ||ping*.bidease.com^
 ||polaris*-normal-*.zijieapi.com^
 ||analytics*.carambo.la^
-||chat*-ce.chatdealer.jp^
 ||geoloc*.9cd47096ab1495d8d3b18667f6a52b9c.com^
 ||analytics-v*.eip.telegraph.co.uk^
 ||gtlpa*.com^
@@ -571,18 +578,17 @@ rgmechanicsgames.com*VPN.exe
 ||pixel-*.convertagain.net^
 ||analytics*.prezly.com^
 ||collector*.ex.co^
-||gamenguide.com*adbk
+rgmechanicsgames.com*VPN.exe
 ||widgets.*.webengage.com^
 728x90.jpg|
+||chat*-ce.chatdealer.jp^
+||158.247.208.
 ||util-*.simply-hentai.com^
 ||23.109.82.
-||get-me-wow.
-||142.91.159.
-|167.206.10.148^
+||allsportsflix.
+||rtb-*.anysex.com^
 ||23.109.87.
-||fapnado.*.php|
-||itechpost.com*adbk
-Banner468x60
+||s*.skencituer.com^
 ||mt[0-9]*.google.cn^
 ||usage-us-*.myhomescreen.tv^
 ||is-not-certiﬁed.com^
@@ -613,7 +619,6 @@ directtrack.*.js
 ||xparibet*.com^
 ||videoadblockers.
 ||t-mobile-*.bond^
-|load.sst.
 ||ctt-post-prt.
 ||americanconsultantrx.
 ||xmindchina.
@@ -629,7 +634,6 @@ directtrack.*.js
 ||adidas-outlet*
 ||clk.rtpdn*.com^
 ||postag-at.
-||wa.gmx.
 ||highercaptcha-settle.
 ||github-foundation.
 |pizzaseo.com|
@@ -643,7 +647,6 @@ directtrack.*.js
 ||kgm-*.bond^
 ||ausposehelp.
 ||suite*.linximpulse.net^
-|load.ss.
 ||au-eparcelse.
 ||egytpostl.
 ||posti-ffi.
@@ -708,7 +711,6 @@ cookiePolicyEUPopin*
 ||track.tiara.
 ||highperformancecpm*.com^
 ||trackdetailsaa.
-|load.sgtm.
 ||adidasfactoryoutlet*
 ||blender3d-download.
 ||aupost-track.
@@ -753,11 +755,13 @@ flipdish-cookie-consent*
 ||passport-gitcoin.
 ||www.fuze-sea*.xyz^
 ||metrics*.fitanalytics.com^
+||trc.*.co^
 ||adservice.
 ||posten-tracks.
 ||freediscordnitro.
 ||eclog*-*.cafe24.com^
 ||all-best-prize-202*.com^
+||reschedule-delivery.ups.com.
 |samsungqbe.com^
 ||profitablecpm*.com^
 ||1xbet-*.com^
@@ -804,14 +808,12 @@ flipdish-cookie-consent*
 ||aupost-parceled.
 ||auposthandle.
 ||au-postags.
-|load.gtm.
 ||discord-give.
 ||postten-no.
 ||au-postaga.
 ||git.git.git.git.
 |dominiosvision.com|
 ||xscp0*xq.com^
-|a.klaviyo.com^
 ||acrxcoupon.
 ||snowplow-collector-*.amazonaws.com^
 ||thegreatesthits.
@@ -821,10 +823,12 @@ flipdish-cookie-consent*
 ||megapari-*.com^
 ||secure-0*.ddnss.ch^
 ||www.fuze-hill*.xyz^
+||postnord-tk.
 ||ad.
 ||receivingauspost.
 ||parkdomainreal*.site^
 ||aupostchange.
+||csgogf*.xyz^
 ||stat.tiara.
 ||2spendless.
 ||blender3ds-download.
