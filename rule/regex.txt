@@ -1,4 +1,4 @@
-# Update time: 2026-09-16 00:28:35
+# Update time: 2026-09-16 11:48:12
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -17,7 +17,6 @@
 
 # 每12小时同步一次、如有误杀、请手动解除
 
-||report.*.qq.com^
 ||yandex.avito.www.
 ||booklng.com-*
 ||yandex.avito.sber*
@@ -25,6 +24,7 @@
 ||avito.avito.www.avito.
 ||avito.avito.avito.
 ||yandex.pay.avito.
+||report.*.qq.com^
 ||umami-*.sufrah.net^
 ||data.anisearch.
 ||telemetry*.transcend.io^
@@ -91,13 +91,11 @@
 ||fanpingbi*.gaokao.com^
 ||dn*.ixinwei.com^
 ||bdlm*.hc360.com^
-||ac*.786ip.com^
 ||ya*.dwstatic.com^
 ||ad*.on.cc^
 ||d*.xinshipu.com^
 ||fpb*.51edu.com^
 ||ja*.gamersky.com^
-||static*.365inews.com^
 ||ysdm*.ys137.com.cn^
 ||107.167.22.*.gif
 ||at*.doubanio.com^
@@ -110,7 +108,6 @@
 ||same*.stockstar.com^
 ||gcw*.2liang.cn^
 ||impservice*.yodao.com^
-||ac*.faxingchina.com^
 ||fpb1.chinacar.
 ||ax.*.ifeng.com^
 ||121.204.246.*.gif
@@ -154,7 +151,6 @@ analytics-*.aasaam.com
 ||real*traf.ru^
 ||wa.gmx.
 ||zbc6hy*.live^
-||pxl-*.ozone.ru^
 ||cnt.yeptube.
 ||alishop*.ru^
 ||ad*.wisenut.co.kr^
@@ -242,7 +238,6 @@ Banner468x60
 ||report.*.gbqofs.io^
 ||fapnado.*.php|
 ||tracking.geo.*.amazonaws.com^
-||query*.petametrics.com^
 ||button.blogs.yandex.
 ||sta.wawacity.
 ||servo-report.keepstreams.*^
@@ -259,7 +254,6 @@ Banner468x60
 ||etargetnet.*.hu^
 ||ulog-*.ksapisrv.com^
 ||rum*.cdnvideo.ru^
-||qn-*pcdn.cdn.huya.com^
 ||zazgiyoh*.world^
 ||adservice.google.co.*
 ||u*.takru.com^
@@ -311,7 +305,6 @@ Banner468x60
 ||gamenguide.com*adbk
 ||ad*.bilgin.pro^
 ||tnc*.tiktokv.com^
-||px*.mediahills.ru^
 ||ulog.*.kwai-pro.com^
 ||ubacollect-*.cloud.dbankcloud.cn^
 ||rotaban.
@@ -330,7 +323,6 @@ Banner468x60
 ||pixel.archive.
 ||stats*.videonow.ru^
 ||ad*.thisisgame.com^
-||qn-*pcdn.cdn.msstatic.com^
 ||q*-publick.club^
 ||ub.galaxus.
 ||minitds-*.info^
@@ -348,7 +340,6 @@ Banner468x60
 ||spa-tracker*.spapi.io^
 ||popunder.
 @@||cdn-msp*.18comic.*^
-||quangcao-*.epicdn.me^
 ||rotator.
 ||collector.xhamster*.
 ||aviasales.*-analytics.
@@ -387,6 +378,7 @@ Banner468x60
 ||analytics*.clickdimensions.com^
 ||bi-eventtracker-*.amazonaws.com^
 ||mon*-*.tiktokv.us^
+||pxl-*.ozone.ru^
 ||ads*-adnow.com^
 ||kbox-analytics-prod.s*.amazonaws.com^
 ||iptracker-lb-*.amazonaws.com^
@@ -396,6 +388,7 @@ Banner468x60
 ||customerevents.us-east-*.internal.dradis.netflix.com^
 ||device-metrics-us*.amazon.com^
 ||ana*.inews24.com^
+||ac*.786ip.com^
 ||geotargetly-api-*.com^
 ||mcs-va-*.tiktokv.com^
 ||events-api*.outfit7.com^
@@ -465,6 +458,7 @@ Banner468x60
 ||fads*s.com^
 ||ads-dmp-collect.*.karrotmarket.com^
 ||collector-*.protechts.net^
+||query*.petametrics.com^
 ||attr-logs.*.amazonaws.com^
 ||firebaselogging-*.googleapis.com^
 ||gads*z.com^
@@ -485,6 +479,7 @@ Banner468x60
 ||host*.ncoi.nl^
 ||lively-collect-elb-*.amazonaws.com^
 ||analytics-rollout-*.amazonaws.com^
+||qn-*pcdn.cdn.huya.com^
 ||mssdk*.zijieapi.com^
 ||log-v*-boot.capcutapi.com^
 ||browser-intake-*-datadoghq.com^
@@ -520,6 +515,7 @@ Banner468x60
 ||log-*.epicdn.me^
 ||adcounter*.uptolike.ru^
 ||metric*.rediff.com^
+||ac*.faxingchina.com^
 ||log*.zijieapi.com^
 ||log*.aliyuncs.com^
 ||geoloc*.geovisite.ovh^
@@ -536,6 +532,7 @@ Banner468x60
 ||logstash-*.radio-canada.ca^
 ||api*.amplitude.com^
 ||app-analytics-*.snapchat.com^
+||px*.mediahills.ru^
 ||matomo.*.vn^
 ||log-*.isnssdk.com^
 ||appanalysis*.banggood.com^
@@ -558,6 +555,7 @@ Banner468x60
 ||log-*.zadn.vn^
 ||api*.moengage.com^
 ||hba*.hepsiburada.com^
+||qn-*pcdn.cdn.msstatic.com^
 ||mon-va*.capcutapi.com^
 ||js.*2023*.live^
 ||collect-v*.51.la^
@@ -573,6 +571,7 @@ Banner468x60
 ||ad.*.360.cn^
 ||livetracker.*.pangea-cms.com^
 ||log*-normal-lq.toutiaoapi.com^
+||quangcao-*.epicdn.me^
 ||aem-collector-*.kgslb.com^
 ||analytics-ad-*.kgslb.com^
 ||aj2*.bid^
@@ -581,14 +580,15 @@ Banner468x60
 ||collector*.ex.co^
 ||reachableads-av.*.amazonaws.com^
 rgmechanicsgames.com*VPN.exe
-728x90.jpg|
 ||widgets.*.webengage.com^
 ||23.109.82.
 ||get-me-wow.
+728x90.jpg|
 ||allsportsflix.
 |167.206.10.148^
 ||23.109.87.
 ||rtb-*.anysex.com^
+||static*.365inews.com^
 ||s*.skencituer.com^
 ||prebid-*.rubiconproject.com^
 ||mt[0-9]*.google.cn^
@@ -672,6 +672,7 @@ directtrack.*.js
 ||hhba0*kdh.com^
 ||postnordspara.
 ||version.bind|
+||mizunocanada*
 ||version.server|
 ||aupostdelivered.
 ||egytposte.
