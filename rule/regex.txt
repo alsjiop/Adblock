@@ -1,4 +1,4 @@
-# Update time: 2026-10-28 01:37:43
+# Update time: 2026-10-28 12:32:29
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -17,6 +17,7 @@
 
 # 每12小时同步一次、如有误杀、请手动解除
 
+||report.*.qq.com^
 ||yandex.avito.www.
 ||booklng.com-*
 ||yandex.avito.sber*
@@ -24,7 +25,6 @@
 ||avito.avito.www.avito.
 ||avito.avito.avito.
 ||yandex.pay.avito.
-||report.*.qq.com^
 ||umami-*.sufrah.net^
 ||data.anisearch.
 ||telemetry*.transcend.io^
@@ -120,8 +120,12 @@ analytics-*.aasaam.com
 ||analytics-api.dvdfab.
 ||xlog*-*.tiktokv.com^
 ||trace-*.free-reels.com^
+||stats.*.ronghub.com^
+||stun.*.kugou.com^
+||st-*.dynamicyield.com^
 ||etargetnet.*.hu^
 ||ulog-*.ksapisrv.com^
+||partner.superbahisaffiliates*.com^
 ||zazgiyoh*.world^
 ||adservice.google.co.*
 ||trace-*.hungrypanda.co^
@@ -130,15 +134,16 @@ analytics-*.aasaam.com
 ||advert*.ultraweb.hu^
 ||sst.carwow.
 @@||cdn*.porn300.com^
+||stats2.*.fdnames.com^
 ||stats.zone-telechargement.
 ||ulog*.gifshow.com^
 ||v*.denakop.com^
 ||www.xxmh*.com^
+||staging-*.ispot.tv^
 ||mr.allegro.
 ||onetrust.
 ||zbc6hy*.live^
 ||bc.geocities.
-||cnt.iceporn.
 ||tracking.*.miui.com^
 ||ad*.wisenut.co.kr^
 ||tccd.douglas.
@@ -147,6 +152,7 @@ analytics-*.aasaam.com
 ||t*.playdigo.live^
 ||trk*.vidible.tv^
 ||basvformu*.xyz^
+||sock*-goguardian.pusher.com^
 ||tnc16-*.hypic.com^
 ||wslog-global-dual.cool*cloud.com^
 ||pangolin*.sgsnssdk.com^
@@ -157,6 +163,8 @@ Banner468x60
 ||1024wanzhai.
 ||ads*.opensubtitles.org^
 ||tnc*.tiktokv.us^
+||stat.*.v-56.com^
+||stats.mapple.*^
 ||ad*.tmgrup.com.tr^
 ||xy-*pcdn.msstatic.com^
 ||rehs.*.hu^
@@ -165,6 +173,7 @@ Banner468x60
 ||stats.zone-annuaire.
 ||use-trk*.bluevoox.com^
 ||adimg*.search.naver.net^
+||stat*.1internet.tv^
 %2Fevent.gif%3F
 @@||cdn-msp*.18comic*.*^
 ||df.infra.shopee.
@@ -173,8 +182,10 @@ Banner468x60
 ||tracking-v*.a.run.app^
 ||zazgiyoh*.xyz^
 ||zcchyw*.xyz^
+||stats*.credit-cooperatif.coop^
 ||tracking*.euroads.fi^
 ||ulog*.*^
+||sensorsdata*.read.duokan.com^
 ||dualstack.adbert-web-lbs-*.elb.amazonaws.com^
 ||weblogger-wss.cool*cloud.com^
 ||ad*.bilgin.pro^
@@ -196,11 +207,15 @@ Banner468x60
 ||158.247.208.
 ||df.infra.sz.shopee.
 ||tblog-*.kgslb.com^
+||ssp*.rtb.beeline.ru^
 ||zahrvfbd*.xyz^
 ||pixel.archive.
+||stats*.videonow.ru^
+||stlog*-local.kakao.com^
 ||stw.extreme-down.
 ||ad*.gyaloglo.hu^
 ||ad*.thisisgame.com^
+||stats.*.rongnav.com^
 ||zcchyr*.xyz^
 ||adverticum.*.hu^
 ||zaqlovh*.xyz^
@@ -215,11 +230,14 @@ Banner468x60
 ||tracking-*.trnox.com^
 ||telemetry.*.pvp.net^
 ||analytics.ticketmaster.
+||stats-*.p2pnow.ru^
 ||yhsfsdv*.com^
 ||thezbpe5*.xyz^
+||spa-tracker*.spapi.io^
 @@||cdn-msp*.18comic.*^
 ||sta.wawacity.
 ||aviasales.*-analytics.
+||servo-report.keepstreams.*^
 ||pixel*.production-public.tubi.io^
 ||host*.nti.nl^
 ||ping*.qq.com^
@@ -246,7 +264,6 @@ Banner468x60
 ||beehiiv-adnetwork-production.s*.amazonaws.com^
 ||collector-*.perimeterx.net^
 ||log*-misc-lf.amemv.com^
-||stats2.*.fdnames.com^
 ||opnked*.xyz^
 ||ajx*.online^
 ||powa-ingest-prod-*.video-player.arcpublishing.com^
@@ -265,7 +282,6 @@ Banner468x60
 ||device-metrics-us*.amazon.com^
 ||ana*.inews24.com^
 ||ac*.786ip.com^
-||sock*-goguardian.pusher.com^
 ||ad-host-backup-*.s3.*.amazonaws.com^
 ||geotargetly-api-*.com^
 ||mcs-va-*.tiktokv.com^
@@ -285,7 +301,6 @@ Banner468x60
 ||logservice-*.platform.dbankcloud.cn^
 ||clickstream-*.homedepot.com^
 ||log*-normal-useast1a.lemon8-app.com^
-||stat*.1internet.tv^
 ||analyzer*.fc2.com^
 ||dj1*.online^
 ||log*.byteoversea.com^
@@ -295,7 +310,6 @@ Banner468x60
 ||aj2*.online^
 ||cs*.mp3bars.com^
 ||ecommerce-events*.adscale.com^
-||stats*.credit-cooperatif.coop^
 ||a*.smlog.co.kr^
 ||mcs-*.tiktok.com^
 ||bjkedv*.xyz^
@@ -314,9 +328,7 @@ Banner468x60
 ||mcs-*.lemon8-app.com^
 ||agatha-log-service-*.a.run.app^
 ||log-va*.capcutapi.com^
-||stlog*-local.kakao.com^
 ||p2pup*.gamedl.qq.com^
-||stats.*.rongnav.com^
 ||datacollector-*.dt.hicloud.com^
 ||mon-v*-boot.capcutapi.com^
 ||n*adserv.xyz^
@@ -339,7 +351,6 @@ Banner468x60
 ||auth-*.hismarttv.com^
 ||admicro*.vcmedia.vn^
 ||batchlogging*-eu.truecaller.com^
-||stats-*.p2pnow.ru^
 ||ad-host-backup-*.*.aliyuncs.com^
 ||eum*.instana.io^
 ||report.*.gbqofs.io^
@@ -353,7 +364,6 @@ Banner468x60
 ||flurry.agentportal-*.yahoodns.net^
 ||host*.rigbyandpeller.com^
 ||analytics.*.sky.com^
-||servo-report.keepstreams.*^
 ||pangolin-sdk-toutiao*.com^
 ||clickhouse-collector.*.prod.plat.agency^
 ||collector-*.luigisbox.com^
@@ -368,9 +378,6 @@ Banner468x60
 ||sdk-*.moengage.com^
 ||liveme-sensors-collect2-*.amazonaws.com^
 ||rtlog*.tiktokv.us^
-||stats.*.ronghub.com^
-||stun.*.kugou.com^
-||st-*.dynamicyield.com^
 ||host*.ncoi.nl^
 ||lively-collect-elb-*.amazonaws.com^
 ||rum*.cdnvideo.ru^
@@ -382,7 +389,6 @@ Banner468x60
 ||collector-*.px-cdn.net^
 ||ads*.zijieapi.com^
 ||host*.polaroid.com^
-||staging-*.ispot.tv^
 ||mon*.tiktokv.us^
 ||datacollector-*.dt.dbankcloud.cn^
 ||mtag-*.wedevs.com^
@@ -410,10 +416,8 @@ Banner468x60
 ||collector-*.px-client.net^
 ||ej1*.online^
 ||log-*.epicdn.me^
-||stat.*.v-56.com^
 ||adcounter*.uptolike.ru^
 ||metric*.rediff.com^
-||stats.mapple.*^
 ||ac*.faxingchina.com^
 ||log*.zijieapi.com^
 ||log*.aliyuncs.com^
@@ -430,7 +434,6 @@ Banner468x60
 ||mcdp-*.outbrain.com^
 ||prod.*.analytics.console.aws.a2z.com^
 ||analytics.*.adjust.com^
-||sensorsdata*.read.duokan.com^
 ||logstash-*.radio-canada.ca^
 ||api*.amplitude.com^
 ||app-analytics-*.snapchat.com^
@@ -454,8 +457,6 @@ Banner468x60
 ||promo-*.vercel.app^
 ||data-track*.yingxiong.com^
 ||geoloc*.geostats.ovh^
-||ssp*.rtb.beeline.ru^
-||stats*.videonow.ru^
 ||log-*.zadn.vn^
 ||api*.moengage.com^
 ||hba*.hepsiburada.com^
@@ -473,7 +474,6 @@ Banner468x60
 ||gtlpa*.com^
 ||gbxreport-*.wf.com^
 ||ad.*.360.cn^
-||spa-tracker*.spapi.io^
 ||livetracker.*.pangea-cms.com^
 ||log*-normal-lq.toutiaoapi.com^
 ||quangcao-*.epicdn.me^
@@ -518,7 +518,6 @@ rgmechanicsgames.com*VPN.exe
 d4?appid*type*
 CV-4923
 directtrack.*.js
-||analytics.dulo.
 ||invenio_tracking_*.sgnapps.com^
 @@|www.auslogics.com|
 ||postnordexpressdelivery-
@@ -543,7 +542,6 @@ directtrack.*.js
 ||postnord-se-delivery.
 ||sgtm.fashionunited.
 ||log*-normal-*.tiktokv.com
-||partner.superbahisaffiliates*.com^
 ||videoadblockertou.
 ||v.tzbox*.xyz^
 ||aupostsuportos.
@@ -566,6 +564,7 @@ directtrack.*.js
 ||secure-access-*.gate23.xyz^
 ||cnt.yeptube.
 ||hokaoutlet*
+||cnt.iceporn.
 ||gitcoin-passport.
 ||botswanapostt.
 ||putrr*.com^
@@ -600,7 +599,6 @@ directtrack.*.js
 ||salomonusa*
 ||inpoost-pl.
 ||hostname.bind|
-||stats.dulo.
 ||adidasoutlet*
 ||goodadvert.
 ||free-discordnitro.
@@ -694,6 +692,7 @@ flipdish-cookie-consent*
 ||admulti.
 ||no-oppdatere.
 ||pwredir-*.com^
+||analytics.dulo.
 ||ausupoisteoline.
 ||mf*.advantage.as^
 ||ausepostrack.
@@ -932,6 +931,7 @@ flipdish-cookie-consent*
 ||union.
 ||24h*-ad.24hstatic.com^
 ||admob.*^
+||adserver.
 ||fls-*.amazon.com^
 ||ping.*.sogou.com^
 ||adsmogo*.*^
