@@ -12,13 +12,13 @@ application:
   rule:
     #远程规则
     remote:
-      - 'https://cdn.jsdelivr.net/gh/hoshsadiq/adblock-nocoin-list/hosts.txt'  #adblock-nocoin-list
-      - 'https://cdn.jsdelivr.net/gh/durablenapkin/scamblocklist/adguard.txt' #Scam Blocklist
+      #- 'https://cdn.jsdelivr.net/gh/hoshsadiq/adblock-nocoin-list/hosts.txt'  #adblock-nocoin-list
+      #- 'https://cdn.jsdelivr.net/gh/durablenapkin/scamblocklist/adguard.txt' #Scam Blocklist
       #- 'https://someonewhocares.org/hosts/zero/hosts' #Dan Pollock's List
       - 'https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&showintro=1&mimetype=plaintext' #Peter Lowe's List
       #- 'https://abp.oisd.nl/basic/' #OISD Blocklist Basic
       #- 'https://adaway.org/hosts.txt' #AdAway Default Blocklist
-      - 'https://cdn.jsdelivr.net/gh/crazy-max/WindowsSpyBlocker/data/hosts/spy.txt' #WindowsSpyBlocker
+      #- 'https://cdn.jsdelivr.net/gh/crazy-max/WindowsSpyBlocker/data/hosts/spy.txt' #WindowsSpyBlocker
       #- 'https://cdn.jsdelivr.net/gh/o0HalfLife0o/list@master/ad-pc.txt' #HalfLife（pc）
       #- 'https://cdn.jsdelivr.net/gh/banbendalao/ADgk@master/ADgk.txt' #Adgk
       #- 'https://cdn.jsdelivr.net/gh/VeleSila/yhosts/hosts.txt' #yhosts
@@ -32,7 +32,7 @@ application:
       #- 'https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt' #name: 乘风 广告过滤规则
       #- 'https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt' #name: 乘风 视频过滤规则
       #- 'https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad.txt' #name: HalfLife_合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
-      - 'https://adaway.org/hosts.txt' #name: AdAway 官方的去广告 Host 规则
+      #- 'https://adaway.org/hosts.txt' #name: AdAway 官方的去广告 Host 规则
       - 'https://easylist-downloads.adblockplus.org/antiadblockfilters.txt' #name: 去除禁止广告拦截提示规则
       #- 'https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts.txt' #name: Yhosts规则
       #- 'https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts' #name: 大圣净化（针对国内视频）
@@ -48,8 +48,8 @@ application:
       #- 'https://raw.githubusercontents.com/91ajames/ublock-filters-ulist-youtube/main/blocklist.txt' #name: ublock-filters-ulist-youtube
       #- 'https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt' #name: 秋风广告规则,针对Android广告
       #KoolProxy规则
-      - 'https://github.com/ilxp/koolproxy/raw/main/rules/koolproxy.txt' #name:静态白名单规则
-      - 'https://github.com/ilxp/koolproxy/raw/main/rules/daily.txt' #name:每日规则
+      #- 'https://github.com/ilxp/koolproxy/raw/main/rules/koolproxy.txt' #name:静态白名单规则
+      #- 'https://github.com/ilxp/koolproxy/raw/main/rules/daily.txt' #name:每日规则
       #- 'https://github.com/ilxp/koolproxy/blob/main/rules/adg.txt' #name:AdGuard规则
       #- 'https://github.com/ilxp/koolproxy/blob/main/rules/adgk.txt' #name:Banben规则
       #- 'https://github.com/ilxp/koolproxy/blob/main/rules/yhosts.txt' #name:Yhosts规则
@@ -57,16 +57,16 @@ application:
       #uBlock内置规则
       - 'https://raw.githubusercontent.com/uBlockOrigin/uAssets/refs/heads/master/filters/filters.txt' #name: uBlock filters
       - 'https://raw.githubusercontent.com/uBlockOrigin/uAssets/refs/heads/master/filters/badware.txt' #name: uBlock filters – Badware risks
-      - 'https://raw.githubusercontent.com/uBlockOrigin/uAssets/refs/heads/master/filters/privacy.txt' #name: uBlock filters – Privacy
+      #- 'https://raw.githubusercontent.com/uBlockOrigin/uAssets/refs/heads/master/filters/privacy.txt' #name: uBlock filters – Privacy
       - 'https://raw.githubusercontent.com/uBlockOrigin/uAssets/refs/heads/master/filters/quick-fixes.txt' #name: uBlock filters – Quick fixes
       - 'https://raw.githubusercontent.com/uBlockOrigin/uAssets/refs/heads/master/filters/resource-abuse.txt' #name: uBlock filters – Resource abuse
       - 'https://raw.githubusercontent.com/uBlockOrigin/uAssets/refs/heads/master/filters/unbreak.txt' #name: uBlock filters – Unbreak
       - 'https://github.com/uBlockOrigin/uAssets/raw/refs/heads/master/filters/annoyances-cookies.txt' #name: uBlock filters – Cooike Notice
       #AdGuard
-      - 'https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/refs/heads/master/filters/filter_224_Chinese/filter.txt' #name: AdGuard filters - Chinese 
+      #- 'https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/refs/heads/master/filters/filter_224_Chinese/filter.txt' #name: AdGuard filters - Chinese 
       - 'https://github.com/AdguardTeam/FiltersRegistry/raw/refs/heads/master/filters/filter_18_Annoyances_Cookies/filter.txt' #name: AdGuard filters – Cooike Notice
-      - 'https://github.com/AdguardTeam/FiltersRegistry/raw/refs/heads/master/filters/filter_11_Mobile/filter.txt' #name: AdGuard Mobile Ads移动设备
-      - 'https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt' #name: AdGuard 防跟踪保护过滤器
+      #- 'https://github.com/AdguardTeam/FiltersRegistry/raw/refs/heads/master/filters/filter_11_Mobile/filter.txt' #name: AdGuard Mobile Ads移动设备
+      #- 'https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt' #name: AdGuard 防跟踪保护过滤器
       #- 'https://cdn.jsdelivr.net/gh/AdguardTeam/FiltersRegistry/filters/filter_15_DnsFilter/filter.txt' #AdGuard DNS filter
       #- 'https://code.gitlink.org.cn/hacamer/AdRules/raw/branch/main/adguard-full.txt' #AdRules AdGuard Full List
       #- 'https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt' #adguard base
@@ -77,11 +77,11 @@ application:
       - 'https://github.com/easylist/easylist/raw/refs/heads/master/easylist_cookie/easylist_cookie_general_block.txt' #name: Easylist -– Cooike Notice
       #自用
       - 'https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_plus.txt' #name: Cats-Team-filters
-      - 'https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt' #name: Cats-Team-dns
+      #- 'https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt' #name: Cats-Team-dns
       - 'https://raw.githubusercontent.com/uniartisan/adblock_list/master/adblock_plus.txt' #name: adblock_list
       #- 'https://raw.githubusercontent.com/Ealenn/AdGuard-Home-List/gh-pages/AdGuard-Home-List.Block.txt' #name: AdGuard Home - List
-      - 'https://raw.githubusercontent.com/BlueSkyXN/AdGuardHomeRules/master/all.txt' #name: AdGuardHomeRules
-      - 'https://raw.githubusercontent.com/BlueSkyXN/AdGuardHomeRules/master/skyrules.txt' #name: AdGuardHomeRules-建议开启
+      #- 'https://raw.githubusercontent.com/BlueSkyXN/AdGuardHomeRules/master/all.txt' #name: AdGuardHomeRules-----不再更新
+      #- 'https://raw.githubusercontent.com/BlueSkyXN/AdGuardHomeRules/master/skyrules.txt' #name: AdGuardHomeRules-建议开启-----不再更新
       #- 'https://raw.githubusercontent.com/guandasheng/TheBestAdrules/main/all.txt' #name: TheBestAdrules
       - 'https://raw.githubusercontent.com/5whys-adblock/AdGuardHome-rules/main/rules/output_full.txt' #name: 5whys
       - 'https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.txt'          #hagezi dns-blocklists-pro
@@ -90,7 +90,10 @@ application:
       - 'https://raw.githubusercontent.com/xndeye/adblock_list/refs/heads/release/easylist.txt' #xndeye adblock_list
       - 'https://raw.githubusercontent.com/ph00lt0/blocklist/master/blocklist.txt' #ph00lt0 blocklist
       - 'https://raw.githubusercontent.com/lingeringsound/10007_auto/master/all' #10007
-      - 'https://raw.githubusercontent.com/neodevpro/neodevhost/master/ownblocklist' #neodevpro
+      #- 'https://raw.githubusercontent.com/neodevpro/neodevhost/master/ownblocklist' #neodevpro
+      - 'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/AdGuard/Advertising/Advertising.txt' #AdGuard_blackmatrix7
+      - 'https://raw.githubusercontent.com/FiltersHeroes/KAD/master/KAD.txt' #用于拦截钓鱼网站和恶意软件的危险网站警告列表。
+      - 'https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antimalware.txt' #有没有在输入地址时按错键，结果到了错误的地方？这份列表旨在避免这种情况发生。
       
     #本地规则
     local: #本地规则请将文件移动到项目路径rule目录中
