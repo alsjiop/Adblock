@@ -1,4 +1,4 @@
-# Update time: 2026-11-04 03:12:50
+# Update time: 2026-11-04 13:14:16
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -52,7 +52,6 @@ analytics-*.aasaam.com
 ||pxl-*.ozone.ru^
 ||ads*-adnow.com^
 ||iptracker-lb-*.amazonaws.com^
-||sax*.sina.
 ||ad*.wisenut.co.kr^
 ||ali-bj-pcdn-*.biliapi.net^
 ||tccd.douglas.
@@ -89,6 +88,7 @@ Banner468x60
 ||hostingcloud.*.wasm^
 ||track.*.roku.com^
 ||install*.zonastat.com^
+||widgets.*.webengage.com^
 ||ads*.depositfiles.com^
 ||itechpost.com*adbk
 ||aj1*.online^
@@ -144,6 +144,7 @@ Banner468x60
 ||staging-*.ispot.tv^
 ||onetrust.
 ||cas.*.criteo.com^
+||qpb*.sohu.com^
 ||s*.skencituer.com^
 ||apiproxy-log-nlb-1f304af4d3ac01a4.elb.us-east-*.amazonaws.com^
 ||batchlogging*-noneu.truecaller.com^
@@ -274,6 +275,7 @@ Banner468x60
 ||tracking*.euroads.fi^
 ||ulog*.*^
 ||weblogger-wss.cool*cloud.com^
+||ifengad.*.ifeng.com^
 ||sta.zone-telechargement.
 ||adservice.google.*^
 ||t.delfi.
@@ -433,14 +435,28 @@ rgmechanicsgames.com*VPN.exe
 |167.206.10.148^
 ||23.109.87.
 ||static*.365inews.com^
-||qpb*.sohu.com^
+||mt[0-9]*.google.cn^
+||usage-us-*.myhomescreen.tv^
+||is-not-certiﬁed.com^
+||ad*.adfarm*.adition.com^
+||casinonæstved.dk^
+||click.virt.s*.exacttarget.com^
+||brm-core-*.brsrvr.com^
+||payments-*.amazon.com^
+||collect-eu-*.myhomescreen.tv^
+||from-ﬂ.com^
+||rød25.dk^
+||t.sidekickopen*.com^
+||is-a-ﬁnancialadvisor.com^
+||is-certiﬂed.com^
+||sidekickopen*.com^
+||wms*.zoho.eu^
 ||ads*.textra.me^
 ||us.*.qwadro.com^
 ||creative*.bidease.com^
 ||valentine.xhamster.*^
 ||api16-access-ttp*.tiktokpangle-b.us^
 ||counter*.stat.ovh^
-||ifengad.*.ifeng.com^
 ||ads.livetv*.me^
 ||allsportsflix.
 ||v*-ad.video.yximgs.com^
@@ -448,7 +464,6 @@ rgmechanicsgames.com*VPN.exe
 ||nelonenmedia-pmd-ads-*.nm-stream.nelonenmedia.fi^
 ||prebid-cache*.ifunny.co^
 ||api*.batmobi.net^
-||widgets.*.webengage.com^
 ||23.109.82.
 ||get-me-wow.
 ||mob*.novanewsapp.com^
@@ -489,22 +504,6 @@ rgmechanicsgames.com*VPN.exe
 ||mobiadvert*.livesportmedia.eu^
 ||ads*.bojijulebu.com^
 ||adcs-*.myappsget.com^
-||mt[0-9]*.google.cn^
-||usage-us-*.myhomescreen.tv^
-||is-not-certiﬁed.com^
-||ad*.adfarm*.adition.com^
-||casinonæstved.dk^
-||click.virt.s*.exacttarget.com^
-||brm-core-*.brsrvr.com^
-||payments-*.amazon.com^
-||collect-eu-*.myhomescreen.tv^
-||from-ﬂ.com^
-||rød25.dk^
-||t.sidekickopen*.com^
-||is-a-ﬁnancialadvisor.com^
-||is-certiﬂed.com^
-||sidekickopen*.com^
-||wms*.zoho.eu^
 @@|www.auslogics.com|
 ||postnordexpressdelivery-
 ||an.yandex.
@@ -819,7 +818,6 @@ rgmechanicsgames.com*VPN.exe
 ||gostats.*^
 ||www.fuze-sea*.xyz^
 ||edgetrksvc.ebay.
-|lgtvsdp.com^
 ||freediscordnitro.
 ||eclog*-*.cafe24.com^
 |samsungcloudsolution.com^
