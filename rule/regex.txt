@@ -1,4 +1,4 @@
-# Update time: 2026-11-06 13:33:16
+# Update time: 2026-11-07 02:59:48
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -44,6 +44,7 @@ analytics-*.aasaam.com
 @@||cdn*.porn300.com^
 ||stats2.*.fdnames.com^
 ||v*.denakop.com^
+||ax.*.ifeng.com^
 ||mr.allegro.
 ||ajx*.online^
 ||f-log-*.grammarly.io^
@@ -53,6 +54,7 @@ analytics-*.aasaam.com
 ||ads*-adnow.com^
 ||iptracker-lb-*.amazonaws.com^
 ||ad*.wisenut.co.kr^
+||pijama.*.elasticbeanstalk.com^
 ||ali-bj-pcdn-*.biliapi.net^
 ||tccd.douglas.
 ||device-metrics-us*.amazon.com^
@@ -65,6 +67,7 @@ analytics-*.aasaam.com
 ||mcs-va-*.tiktokv.com^
 ||display-ad-*.kgslb.com^
 Banner468x60
+||dm*.yxlady.com^
 ||tnc*.tiktokv.us^
 ||ad*.ettoday.net^
 ||bapi-*.moengage.com^
@@ -84,9 +87,9 @@ Banner468x60
 ||bjkedv*.xyz^
 ||p26.gejulm*.com^
 ||tag-v*.kuzen.io^
-||hostingcloud.*.wasm^
 ||track.*.roku.com^
 ||install*.zonastat.com^
+||adi*.cnool.net^
 ||itechpost.com*adbk
 ||aj1*.online^
 ||aff*.kolektiva.net^
@@ -107,6 +110,7 @@ Banner468x60
 ||s*.adduplex.com^
 ||collector-*.px-cloud.net^
 ||collector-*.tvsquared.com^
+||142.91.159.
 ||ad*.mellesleg.hu^
 ||mcs.*.tiktok.com^
 ||log-*.previewnetworks.com^
@@ -122,9 +126,9 @@ Banner468x60
 ||pangolin-sdk-toutiao*.com^
 ||clickhouse-collector.*.prod.plat.agency^
 ||trck.*.prod-na.turntable.sonic.advertising.amazon.dev^
-||fanpingbi*.gaokao.com^
 ||logs.collector.*.cloud.solarwinds.com^
 ||xlog*-*.tiktokv.com^
+||ad*.on.cc^
 ||stats.*.ronghub.com^
 ||stun.*.kugou.com^
 ||ulog-*.ksapisrv.com^
@@ -139,7 +143,6 @@ Banner468x60
 ||staging-*.ispot.tv^
 ||onetrust.
 ||cas.*.criteo.com^
-||qpb*.sohu.com^
 ||s*.skencituer.com^
 ||apiproxy-log-nlb-1f304af4d3ac01a4.elb.us-east-*.amazonaws.com^
 ||batchlogging*-noneu.truecaller.com^
@@ -161,6 +164,7 @@ Banner468x60
 ||mon*-*.tiktokv.com^
 ||collector-*.px-client.net^
 ||xy-*pcdn.msstatic.com^
+||ac*.faxingchina.com^
 ||rehs.*.hu^
 ||tnc*.zijieapi.com^
 ||tracker.twenga.
@@ -176,7 +180,6 @@ Banner468x60
 ||mcdp-*.outbrain.com^
 ||sensorsdata*.read.duokan.com^
 ||logstash-*.radio-canada.ca^
-||gamenguide.com*adbk
 ||api*.amplitude.com^
 ||app-analytics-*.snapchat.com^
 ||ulog.*.kwai-pro.com^
@@ -184,6 +187,7 @@ Banner468x60
 ||hstats*.hepsiburada.com^
 ||cza*.crazygames.com^
 ||zabdybod*.club^
+||ads*.depositfiles.org^
 ||geoloc*.geo20120530.com^
 ||mcs.*.tiktokv.com^
 ||fp-*it*.fengkongcloud.com^
@@ -208,11 +212,11 @@ Banner468x60
 ||gbxreport-*.wf.com^
 ||ad.*.360.cn^
 ||spa-tracker*.spapi.io^
-||gcw*.2liang.cn^
 ||livetracker.*.pangea-cms.com^
 ||log*-normal-lq.toutiaoapi.com^
 ||quangcao-*.epicdn.me^
 ||analytics*.prezly.com^
+||acookie.*.gif?
 |167.206.10.148^
 ||aviasales.*-analytics.
 ||union*.365inews.com^
@@ -239,11 +243,11 @@ Banner468x60
 ||analytics*.clickdimensions.com^
 ||mon*-*.tiktokv.us^
 ||kbox-analytics-prod.s*.amazonaws.com^
+||impservice*.youdao.com^
 ||ce-global-track-*.amazonaws.com^
 ||customerevents.us-east-*.internal.dradis.netflix.com^
 ||d*.ruiwen.com^
 ||ana*.inews24.com^
-||ac*.786ip.com^
 ||sock*-goguardian.pusher.com^
 ||events-api*.outfit7.com^
 ||pangolin*.sgsnssdk.com^
@@ -286,11 +290,9 @@ Banner468x60
 ||sonar*.xy.fbcdn.net^
 ||adsfilebssdlbig.*.kugou.com^
 ||aj1*.xyz^
-||util-*.simply-hentai.com^
 ||collect-elb-*.amazonaws.com^
 ||mads*z.com^
 ||event.*.shoplive.cloud^
-rgmechanicsgames.com*VPN.exe
 ||auth-*.hismarttv.com^
 ||batchlogging*-eu.truecaller.com^
 ||ad-host-backup-*.*.aliyuncs.com^
@@ -304,7 +306,6 @@ rgmechanicsgames.com*VPN.exe
 ||sta.wawacity.
 ||firebaselogging-*.googleapis.com^
 ||flurry.agentportal-*.yahoodns.net^
-||zbb.bbb.*.pics^
 ||analytics.*.sky.com^
 ||servo-report.keepstreams.*^
 ||collector-*.luigisbox.com^
@@ -312,6 +313,7 @@ rgmechanicsgames.com*VPN.exe
 ||clog*.yuanfudao.com^
 ||htm*.hepsiburada.com^
 ||mapi-log.qoo*.jp^
+||dn*.ixinwei.com^
 ||ja*.apppure.net^
 ||rum*.a.trbcdn.net^
 ||w*.*skwai.com^
@@ -350,7 +352,6 @@ rgmechanicsgames.com*VPN.exe
 ||log-*.epicdn.me^
 ||stat.*.v-56.com^
 ||adcounter*.uptolike.ru^
-||tupian888.*.bcebos.com^
 ||metric*.rediff.com^
 ||stats.mapple.*^
 ||adimg*.search.naver.net^
@@ -375,7 +376,6 @@ rgmechanicsgames.com*VPN.exe
 ||ubacollect-*.cloud.dbankcloud.cn^
 ||appanalysis*.banggood.com^
 ||maas-*.phunware.com^
-||tw-726620180914.*.run.app^
 ||tnc-va*.capcutapi.com^
 ||hads*s.com^
 ||aj3*.bid^
@@ -390,16 +390,16 @@ rgmechanicsgames.com*VPN.exe
 ||bdcpro*.techweb.com.cn^
 ||mon-va*.capcutapi.com^
 ||collect-v*.51.la^
-||logger-*.dailymotion.com^
 ||ub.galaxus.
 ||ping*.bidease.com^
+||bdlm*.hc360.com^
 ||polaris*-normal-*.zijieapi.com^
 ||ad.*.doubleclick.net^
 %2Fopen.aspx%3F
 ||analytics*.carambo.la^
+||ya*.dwstatic.com^
 %2Frw%2Fbeacon_
 ||geoloc*.9cd47096ab1495d8d3b18667f6a52b9c.com^
-||bjsvp*.space^
 ||analytics-v*.eip.telegraph.co.uk^
 ||analytics.ticketmaster.
 ||same*.stockstar.com^
@@ -412,34 +412,30 @@ rgmechanicsgames.com*VPN.exe
 ||collector*.ex.co^
 ||reachableads-av.*.amazonaws.com^
 ||sax*.sina.
-||pijama.*.elasticbeanstalk.com^
 ||uc*.atobo.com^
 ||res*.pinpai8.cn^
-||impservice*.youdao.com^
 ||valentine.xhamster.*^
-||dn*.ixinwei.com^
-||bdlm*.hc360.com^
+||fanpingbi*.gaokao.com^
+||ac*.786ip.com^
+||gamenguide.com*adbk
 728x90.jpg|
-||ya*.dwstatic.com^
-||ad*.on.cc^
-||142.91.159.
-||allsportsflix.
-||rtb-*.anysex.com^
+||util-*.simply-hentai.com^
+||advert*.livesportmedia.eu^
 ||23.109.87.
-||static*.365inews.com^
 ||ja*.gamersky.com^
+||static*.365inews.com^
 ||prebid-*.rubiconproject.com^
-||dm*.yxlady.com^
+||hostingcloud.*.wasm^
+||tw-726620180914.*.run.app^
+rgmechanicsgames.com*VPN.exe
 ||widgets.*.webengage.com^
-||adi*.cnool.net^
 ||zhizhizhizhi.oss-*.aliyuncs.com^
 ||ads*.depositfiles.com^
-||ads*.depositfiles.org^
-||ac*.faxingchina.com^
-||ax.*.ifeng.com^
-||acookie.*.gif?
+||gcw*.2liang.cn^
+||158.247.208.
 ||sam*.baby-kingdom.com^
-||advertising.civitai.
+||zbb.bbb.*.pics^
+||qpb*.sohu.com^
 ||ads*.textra.me^
 ||us.*.qwadro.com^
 ||creative*.bidease.com^
@@ -447,7 +443,7 @@ rgmechanicsgames.com*VPN.exe
 ||counter*.stat.ovh^
 ||ifengad.*.ifeng.com^
 ||ads.livetv*.me^
-||advert*.livesportmedia.eu^
+||allsportsflix.
 ||v*-ad.video.yximgs.com^
 ||nelonenmedia-pmd-ads-*.nm-stream.nelonenmedia.fi^
 ||prebid-cache*.ifunny.co^
@@ -460,7 +456,6 @@ rgmechanicsgames.com*VPN.exe
 ||ad-*.appacc.dbankedge.cn^
 ||adapi*.boomplaymusic.com^
 ||events-*.op.hicloud.com^
-||158.247.208.
 ||adx-*.dbankedge.cn^
 ||banner.*.tccapis.com^
 ||cdn-adn-*.rayjump.com^
@@ -480,6 +475,8 @@ rgmechanicsgames.com*VPN.exe
 ||iad-*.braze.com^
 ||ms*.applvn.com^
 ||adserver.*.yahoodns.net^
+||bjsvp*.space^
+||rtb-*.anysex.com^
 ||marketplace-*.hyprmx.com^
 ||api*.batmobil.net^
 ||mediate-ios-*.hyprmx.com^
@@ -627,13 +624,14 @@ flipdish-cookie-consent*
 ||git.gitlab.gitlab.
 ||metrics*.fitanalytics.com^
 ||trc.*.co^
-||adservice.
 ||posten-tracks.
 ||underclick.
 ||profitablecpm*.com^
 ||hbbtv.*.de^
+||advertising.civitai.
 ||tag-based.s3.*.amazonaws.com^
 ||aupost-trackme.
+||au-eparcelsan.
 ||pop-under.
 ||githubtalentcommunity.
 ||talpa-analytics.
@@ -765,7 +763,6 @@ jquery-eu-cookie-law-popup*
 ||seller-log-collector.shopee.
 ||skpostl-sk.
 ||provideoadblocker.
-||get.*trcks.com^
 ||postnord-paket.
 ||booklng.com-*
 ||discord*.gifts^
@@ -835,6 +832,7 @@ jquery-eu-cookie-law-popup*
 ||avito.avito.www.avito.
 ||acrxcards.
 ||redirectionaupost.
+||adsense.
 ||postenn-no.
 ||admaster.
 ||web-visor.
@@ -881,7 +879,6 @@ jquery-eu-cookie-law-popup*
 ||thegreatesthits.
 ||prt-post-ctt.
 ||xdyn0*jy.com^
-||biz5.
 ||sgtm.wimdu.
 ||pubggf*.xyz^
 ||ad.
