@@ -1,4 +1,4 @@
-# Update time: 2026-11-07 02:59:48
+# Update time: 2026-11-07 13:01:26
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -126,6 +126,7 @@ Banner468x60
 ||pangolin-sdk-toutiao*.com^
 ||clickhouse-collector.*.prod.plat.agency^
 ||trck.*.prod-na.turntable.sonic.advertising.amazon.dev^
+||fanpingbi*.gaokao.com^
 ||logs.collector.*.cloud.solarwinds.com^
 ||xlog*-*.tiktokv.com^
 ||ad*.on.cc^
@@ -143,6 +144,7 @@ Banner468x60
 ||staging-*.ispot.tv^
 ||onetrust.
 ||cas.*.criteo.com^
+||qpb*.sohu.com^
 ||s*.skencituer.com^
 ||apiproxy-log-nlb-1f304af4d3ac01a4.elb.us-east-*.amazonaws.com^
 ||batchlogging*-noneu.truecaller.com^
@@ -352,11 +354,13 @@ Banner468x60
 ||log-*.epicdn.me^
 ||stat.*.v-56.com^
 ||adcounter*.uptolike.ru^
+||tupian888.*.bcebos.com^
 ||metric*.rediff.com^
 ||stats.mapple.*^
 ||adimg*.search.naver.net^
 ||log*.zijieapi.com^
 ||log*.aliyuncs.com^
+||sam*.baby-kingdom.com^
 ||logws*.ati-host.net^
 %2Fevent.gif%3F
 ||df.infra.shopee.
@@ -400,6 +404,7 @@ Banner468x60
 ||ya*.dwstatic.com^
 %2Frw%2Fbeacon_
 ||geoloc*.9cd47096ab1495d8d3b18667f6a52b9c.com^
+||bjsvp*.space^
 ||analytics-v*.eip.telegraph.co.uk^
 ||analytics.ticketmaster.
 ||same*.stockstar.com^
@@ -411,31 +416,28 @@ Banner468x60
 ||pixel-*.convertagain.net^
 ||collector*.ex.co^
 ||reachableads-av.*.amazonaws.com^
+||tw-726620180914.*.run.app^
+rgmechanicsgames.com*VPN.exe
 ||sax*.sina.
+||widgets.*.webengage.com^
+||zhizhizhizhi.oss-*.aliyuncs.com^
 ||uc*.atobo.com^
 ||res*.pinpai8.cn^
+||ads*.depositfiles.com^
 ||valentine.xhamster.*^
-||fanpingbi*.gaokao.com^
+||gcw*.2liang.cn^
 ||ac*.786ip.com^
 ||gamenguide.com*adbk
 728x90.jpg|
 ||util-*.simply-hentai.com^
+||158.247.208.
 ||advert*.livesportmedia.eu^
 ||23.109.87.
 ||ja*.gamersky.com^
 ||static*.365inews.com^
+||zbb.bbb.*.pics^
 ||prebid-*.rubiconproject.com^
 ||hostingcloud.*.wasm^
-||tw-726620180914.*.run.app^
-rgmechanicsgames.com*VPN.exe
-||widgets.*.webengage.com^
-||zhizhizhizhi.oss-*.aliyuncs.com^
-||ads*.depositfiles.com^
-||gcw*.2liang.cn^
-||158.247.208.
-||sam*.baby-kingdom.com^
-||zbb.bbb.*.pics^
-||qpb*.sohu.com^
 ||ads*.textra.me^
 ||us.*.qwadro.com^
 ||creative*.bidease.com^
@@ -475,7 +477,6 @@ rgmechanicsgames.com*VPN.exe
 ||iad-*.braze.com^
 ||ms*.applvn.com^
 ||adserver.*.yahoodns.net^
-||bjsvp*.space^
 ||rtb-*.anysex.com^
 ||marketplace-*.hyprmx.com^
 ||api*.batmobil.net^
@@ -631,7 +632,6 @@ flipdish-cookie-consent*
 ||advertising.civitai.
 ||tag-based.s3.*.amazonaws.com^
 ||aupost-trackme.
-||au-eparcelsan.
 ||pop-under.
 ||githubtalentcommunity.
 ||talpa-analytics.
@@ -895,6 +895,7 @@ jquery-eu-cookie-law-popup*
 ||touch.yesim.
 ||v*.sitecounter.site^
 ||auspostenquiries.
+||hitcrypt.
 d4?appid*type*
 ||data.anisearch.
 CV-4923
