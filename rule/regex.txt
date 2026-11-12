@@ -1,4 +1,4 @@
-# Update time: 2026-11-12 22:01:53
+# Update time: 2026-11-13 03:39:01
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -88,6 +88,7 @@ Banner468x60
 ||hostingcloud.*.wasm^
 ||track.*.roku.com^
 ||install*.zonastat.com^
+||widgets.*.webengage.com^
 ||adi*.cnool.net^
 ||ads*.depositfiles.com^
 ||itechpost.com*adbk
@@ -401,6 +402,7 @@ rgmechanicsgames.com*VPN.exe
 ||analytics*.carambo.la^
 %2Frw%2Fbeacon_
 ||geoloc*.9cd47096ab1495d8d3b18667f6a52b9c.com^
+||bjsvp*.space^
 ||analytics-v*.eip.telegraph.co.uk^
 ||analytics.ticketmaster.
 ||same*.stockstar.com^
@@ -429,6 +431,7 @@ rgmechanicsgames.com*VPN.exe
 ||142.91.159.
 |167.206.10.148^
 ||sam*.baby-kingdom.com^
+||23.109.87.
 ||ja*.gamersky.com^
 ||zbb.bbb.*.pics^
 ||ysdm*.ys137.com.cn^
@@ -444,12 +447,10 @@ rgmechanicsgames.com*VPN.exe
 ||advert*.livesportmedia.eu^
 ||allsportsflix.
 ||v*-ad.video.yximgs.com^
-||23.109.87.
 ||prebid-*.rubiconproject.com^
 ||nelonenmedia-pmd-ads-*.nm-stream.nelonenmedia.fi^
 ||prebid-cache*.ifunny.co^
 ||api*.batmobi.net^
-||widgets.*.webengage.com^
 ||get-me-wow.
 ||mob*.novanewsapp.com^
 ||rtbimp-loadbalancer-*.amazonaws.com^
@@ -478,7 +479,6 @@ rgmechanicsgames.com*VPN.exe
 ||iad-*.braze.com^
 ||ms*.applvn.com^
 ||adserver.*.yahoodns.net^
-||bjsvp*.space^
 ||rtb-*.anysex.com^
 ||marketplace-*.hyprmx.com^
 ||api*.batmobil.net^
@@ -1289,7 +1289,6 @@ rgmechanicsgames.com*VPN.exe
 @@|ctldl.windowsupdate.com^$important
 @@|graph.rockstargames.com^$important
 @@|ubuntu.mirror.digitalpacific.com.au^$important
-@@|jira-frontend-static.prod.public.atl-paas.net^$important
 @@|layouts.nvidiagrid.net^$important
 @@|store-static-modular.gog-statics.com^$important
 @@|dart.dev^$important
@@ -1688,6 +1687,7 @@ rgmechanicsgames.com*VPN.exe
 @@|www.mozilla.org.cdn.cloudflare.net^$important
 @@|social-overlay-launchdarkly-api-prod.ol.epicgames.com^$important
 @@|to-do.live.com^$important
+@@|outlook.live.com^$important
 @@|xbox.ipv6.microsoft.com^$important
 @@|1fichier.com^$important
 @@|static-cdn.osdn.net^$important
@@ -2144,6 +2144,7 @@ rgmechanicsgames.com*VPN.exe
 @@|*.smartscreen-prod.microsoft.com^$important
 @@|www.devuan.org^$important
 @@|cloud.gg^$important
+@@|localized-config-api.gx.nvidia.com^$important
 @@|cdn.mcr.ea.com^$important
 @@|php.net^$important
 @@|get.opensuse.org^$important
@@ -2392,8 +2393,8 @@ rgmechanicsgames.com*VPN.exe
 @@|nginx.org^$important
 @@|marketplace-origin.xbox.com^$important
 @@|www.office.com^$important
-@@|blog.elementary.io^$important
 @@|live.linuxmint.com^$important
+@@|images.nexusmods.com^$important
 @@|ngx.download.nvidia.com^$important
 @@|viewscreen.githubusercontent.com^$important
 @@|packages.zorinos.com^$important
@@ -2695,6 +2696,7 @@ rgmechanicsgames.com*VPN.exe
 @@|ftp.heanet.ie^$important
 @@|docs.dbhub.io^$important
 @@|clan.steamstatic.com^$important
+@@|auth.docker.io^$important
 @@|adl.windows.com^$important
 @@|docs.avaloniaui.net^$important
 @@|us-ut-mirror.chaotic.cx^$important
@@ -3194,7 +3196,6 @@ flipdish-cookie-consent*
 ||sauconyoutlet*
 ||aupost-trackme.
 ||stw.zone-telechargement.
-||au-eparcelsan.
 ||mauritiupost.
 ||pop-under.
 ||githubtalentcommunity.
@@ -3253,7 +3254,6 @@ flipdish-cookie-consent*
 ||dlglpost.
 ||vente-unique.*^
 ||aupost-tracks.
-||gitcoin-application.
 ||rotaban.
 ||omgmta*.*^
 ||tuiguang.*^
