@@ -1,4 +1,4 @@
-# Update time: 2026-11-13 03:39:01
+# Update time: 2026-11-13 13:31:53
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -88,7 +88,6 @@ Banner468x60
 ||hostingcloud.*.wasm^
 ||track.*.roku.com^
 ||install*.zonastat.com^
-||widgets.*.webengage.com^
 ||adi*.cnool.net^
 ||ads*.depositfiles.com^
 ||itechpost.com*adbk
@@ -431,7 +430,6 @@ rgmechanicsgames.com*VPN.exe
 ||142.91.159.
 |167.206.10.148^
 ||sam*.baby-kingdom.com^
-||23.109.87.
 ||ja*.gamersky.com^
 ||zbb.bbb.*.pics^
 ||ysdm*.ys137.com.cn^
@@ -447,10 +445,12 @@ rgmechanicsgames.com*VPN.exe
 ||advert*.livesportmedia.eu^
 ||allsportsflix.
 ||v*-ad.video.yximgs.com^
+||23.109.87.
 ||prebid-*.rubiconproject.com^
 ||nelonenmedia-pmd-ads-*.nm-stream.nelonenmedia.fi^
 ||prebid-cache*.ifunny.co^
 ||api*.batmobi.net^
+||widgets.*.webengage.com^
 ||get-me-wow.
 ||mob*.novanewsapp.com^
 ||rtbimp-loadbalancer-*.amazonaws.com^
@@ -1157,6 +1157,7 @@ rgmechanicsgames.com*VPN.exe
 @@|download.gfe.nvidia.com^$important
 @@|api.msn.com^$important
 @@|upload.nexusmods.com^$important
+@@|res-1.cdn.office.net^$important
 @@|pop-os.org^$important
 @@|gwent-bi-collector.gog.com^$important
 @@|qos*.ol.epicgames.com^$important
@@ -1493,7 +1494,6 @@ rgmechanicsgames.com*VPN.exe
 @@|ems-delivery.api.playstation.com^$important
 @@|media.fab.com.cdn.cloudflare.net^$important
 @@|www.qubes-os.org^$important
-@@|tile-service.weather.microsoft.com^$important
 @@|bugzilla.mozilla.org^$important
 @@|community.steamstatic.com^$important
 @@|cdn.cyberdrop.me^$important
@@ -1798,7 +1798,6 @@ rgmechanicsgames.com*VPN.exe
 @@|eu.static.mega.co.nz^$important
 @@|docs.fedoraproject.org^$important
 @@|consumer.intel.com^$important
-@@|www.xbox.com^$important
 @@|data*.origin.com^$important
 @@|docs.rockylinux.org^$important
 @@|answers.unrealengine.com^$important
@@ -1904,7 +1903,6 @@ rgmechanicsgames.com*VPN.exe
 @@|wallet.ecom.ubi.com^$important
 @@|titlehub.xboxlive.com^$important
 @@|hardware.support.eu.playstation.com^$important
-@@|dl.ocbase.com^$important
 @@|emea01.safelinks.protection.outlook.com^$important
 @@|crl.certum.pl^$important
 @@|cdn.winget.microsoft.com^$important
@@ -2394,7 +2392,6 @@ rgmechanicsgames.com*VPN.exe
 @@|marketplace-origin.xbox.com^$important
 @@|www.office.com^$important
 @@|live.linuxmint.com^$important
-@@|images.nexusmods.com^$important
 @@|ngx.download.nvidia.com^$important
 @@|viewscreen.githubusercontent.com^$important
 @@|packages.zorinos.com^$important
@@ -2409,7 +2406,6 @@ rgmechanicsgames.com*VPN.exe
 @@|ip.notable.app^$important
 @@|productcard.gog-statics.com^$important
 @@|use.fortawesome.com^$important
-@@|docs.microsoft.com^$important
 @@|caddyserver.com^$important
 @@|rzr.to^$important
 @@|e9428.a.akamaiedge.net^$important
@@ -2538,7 +2534,6 @@ rgmechanicsgames.com*VPN.exe
 @@|assets*.msn.com^$important
 @@|download.teamviewer.com^$important
 @@|egs-platform-service.store.epicgames.com^$important
-@@|screenshotscontent-*.xboxlive.com^$important
 @@|packaging.python.org^$important
 @@|ipfs-swarm-ws.hellomouse.net^$important
 @@|uplaypc-s-ubisoft.cdn.ubi.com^$important
@@ -2624,7 +2619,6 @@ rgmechanicsgames.com*VPN.exe
 @@|themes.mozilla.org^$important
 @@|pfmsqos.westus.cloudapp.azure.com^$important
 @@|halo.part.xbox.com^$important
-@@|unrealengine.com^$important
 @@|dl.teamviewer.com^$important
 @@|albert.apple.com^$important
 @@|appleid.apple.com^$important
@@ -2695,7 +2689,6 @@ rgmechanicsgames.com*VPN.exe
 @@|updates-cdn.bravesoftware.com^$important
 @@|ftp.heanet.ie^$important
 @@|docs.dbhub.io^$important
-@@|clan.steamstatic.com^$important
 @@|auth.docker.io^$important
 @@|adl.windows.com^$important
 @@|docs.avaloniaui.net^$important
@@ -2839,31 +2832,6 @@ rgmechanicsgames.com*VPN.exe
 @@|prs-gta5-prod.ros.rockstargames.com^$important
 ！！qq群公告↑
 ！↑↑腾讯视频设备管理器!
-@@||s*.erome.com^
-@@||se*.360simg.com^
-@@||t*img.yangkeduo.com^
-@@||ip*.ahcdn.com^
-@@||upos-*-estg*.bilivideo.com^
-@@||cn-*.bilivideo.cn^
-@@||pic*.zhimg.com^
-@@||s*.ssl.qhres2.com^
-@@||s*.ssl.qhimg.com^
-@@||imga*.5054399.com^
-@@||img*.kuwo.cn^
-@@||f*.market.xiaomi.com^
-@@||static-*.xvideos-cdn.com^
-@@||v*.erome.com^
-@@||upos-*-mirror*.bilivideo.com^
-@@||p*.qhimg.com^
-@@||vdownload-*.sb-cd.com^
-@@||f*.market.mi-img.com^
-@@||pic*.40017.cn^
-@@||kwimg*.kuwo.cn^
-@@||s*.ssl.qhmsg.com^
-@@||cn-*.bilivideo.com^
-@@||hls*-cf.xnxx-cdn.com^
-@@||upos-*-mirror*.akamaized.net^
-@@||ap-*-*.agora.io^
 ||fake-domain^
 ||gao1asdjws^
 ||tnc*-aliec*.zijieapi.com^
@@ -2935,6 +2903,31 @@ rgmechanicsgames.com*VPN.exe
 ||adnetstatic.*^
 ||ad-material.*.com^
 ||0019a^
+@@||s*.erome.com^
+@@||se*.360simg.com^
+@@||t*img.yangkeduo.com^
+@@||ip*.ahcdn.com^
+@@||upos-*-estg*.bilivideo.com^
+@@||cn-*.bilivideo.cn^
+@@||pic*.zhimg.com^
+@@||s*.ssl.qhres2.com^
+@@||s*.ssl.qhimg.com^
+@@||imga*.5054399.com^
+@@||img*.kuwo.cn^
+@@||f*.market.xiaomi.com^
+@@||static-*.xvideos-cdn.com^
+@@||v*.erome.com^
+@@||upos-*-mirror*.bilivideo.com^
+@@||p*.qhimg.com^
+@@||vdownload-*.sb-cd.com^
+@@||f*.market.mi-img.com^
+@@||pic*.40017.cn^
+@@||kwimg*.kuwo.cn^
+@@||s*.ssl.qhmsg.com^
+@@||cn-*.bilivideo.com^
+@@||hls*-cf.xnxx-cdn.com^
+@@||upos-*-mirror*.akamaized.net^
+@@||ap-*-*.agora.io^
 ||mishop.pandora.xiaomi.com.^
 @@|www.auslogics.com|
 ||postnordexpressdelivery-
