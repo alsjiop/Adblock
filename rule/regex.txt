@@ -1,4 +1,4 @@
-# Update time: 2026-11-24 07:31:11
+# Update time: 2026-11-24 16:51:46
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -130,7 +130,6 @@ Banner468x60
 ||a*.smlog.co.kr^
 ||track.zalando.
 ||mcs-*.tiktok.com^
-||ifengad.*.ifeng.com^
 ||bjkedv*.xyz^
 ||p26.gejulm*.com^
 ||sta.zone-telechargement.
@@ -141,7 +140,6 @@ Banner468x60
 ||device-metrics-*.amazon.com^
 ||track.*.roku.com^
 ||install*.zonastat.com^
-||widgets.*.webengage.com^
 ||ads*.depositfiles.com^
 ||ubt.tracking.shopee.
 ||as*.prog.hu^
@@ -327,6 +325,7 @@ Banner468x60
 ||sensorsdata*.read.duokan.com^
 ||dualstack.adbert-web-lbs-*.elb.amazonaws.com^
 ||logstash-*.radio-canada.ca^
+||gamenguide.com*adbk
 ||ad*.bilgin.pro^
 ||api*.amplitude.com^
 ||app-analytics-*.snapchat.com^
@@ -386,7 +385,6 @@ Banner468x60
 ||d*.xinshipu.com^
 ||geoloc*.9cd47096ab1495d8d3b18667f6a52b9c.com^
 ||p*-ad-sign.byteimg.com^
-||bjsvp*.space^
 ||tracking-*.trnox.com^
 ||telemetry.*.pvp.net^
 ||analytics-v*.eip.telegraph.co.uk^
@@ -403,10 +401,10 @@ Banner468x60
 ||aem-collector-*.kgslb.com^
 ||analytics-ad-*.kgslb.com^
 ||aj2*.bid^
+||pixel-*.convertagain.net^
 ||analytics*.prezly.com^
 ||aviasales.*-analytics.
 ||collector*.ex.co^
-||reachableads-av.*.amazonaws.com^
 ||sax*.sina.
 ||pijama.*.elasticbeanstalk.com^
 ||res*.pinpai8.cn^
@@ -415,12 +413,10 @@ Banner468x60
 ||fanpingbi*.gaokao.com^
 ||dn*.ixinwei.com^
 ||ac*.786ip.com^
-||gamenguide.com*adbk
 728x90.jpg|
 ||counter*.stat.ovh^
 ||ad*.on.cc^
 ||ads*.dfiles.ru^
-||allsportsflix.
 ||23.109.87.
 ||ysdm*.ys137.com.cn^
 ||tw-726620180914.*.run.app^
@@ -456,18 +452,38 @@ rgmechanicsgames.com*VPN.exe
 ||is-certiﬂed.com^
 ||sidekickopen*.com^
 ||wms*.zoho.eu^
+||ads*.textra.me^
+||us.*.qwadro.com^
+||creative*.bidease.com^
+||api16-access-ttp*.tiktokpangle-b.us^
+||ifengad.*.ifeng.com^
+||ads.livetv*.me^
+||advert*.livesportmedia.eu^
+||allsportsflix.
+||v*-ad.video.yximgs.com^
+||prebid-*.rubiconproject.com^
+||nelonenmedia-pmd-ads-*.nm-stream.nelonenmedia.fi^
+||prebid-cache*.ifunny.co^
+||api*.batmobi.net^
+||widgets.*.webengage.com^
+||mob*.novanewsapp.com^
+||rtbimp-loadbalancer-*.amazonaws.com^
+||get*bannerads-6egeg2u34q-du.a.run.app^
+||ad-*.appacc.dbankedge.cn^
+||adapi*.boomplaymusic.com^
+||events-*.op.hicloud.com^
+||adx-*.dbankedge.cn^
+||banner.*.tccapis.com^
+||cdn-adn-*.rayjump.com^
+||reachableads-av.*.amazonaws.com^
 ||ads-*-nfl.yinzcam.com^
 ||ads*.production-public.tubi.io^
 ||adx-*.op.dbankcloud.com.edgekey.net^
-||ads*.textra.me^
-||us.*.qwadro.com^
 ||adv0*.msa.cdn.mediaset.net^
-||creative*.bidease.com^
 ||ad*.zonaplus.tv^
 ||production-adserver-*.amazonaws.com^
 ||ad-host-backup-*.aliyuncs.com^
 ||iad-*.appboy.com^
-||api16-access-ttp*.tiktokpangle-b.us^
 ||ads*-normal-*.zijieapi.com^
 ||jtbo*.nqxvevk.cn^
 ||api*.bidmachine.io^
@@ -476,33 +492,18 @@ rgmechanicsgames.com*VPN.exe
 ||iad-*.braze.com^
 ||ms*.applvn.com^
 ||adserver.*.yahoodns.net^
-||ads.livetv*.me^
-||advert*.livesportmedia.eu^
-||v*-ad.video.yximgs.com^
+||bjsvp*.space^
 ||rtb-*.anysex.com^
-||prebid-*.rubiconproject.com^
-||nelonenmedia-pmd-ads-*.nm-stream.nelonenmedia.fi^
 ||marketplace-*.hyprmx.com^
 ||api*.batmobil.net^
-||prebid-cache*.ifunny.co^
-||api*.batmobi.net^
 ||mediate-ios-*.hyprmx.com^
 ||ir-new-cdn-eu-west-*-hb.rayjump.com^
-||mob*.novanewsapp.com^
 ||ads*-normal*.zijieapi.com^
 ||ad-*.amazonaws.com^
 ||ads*-normal-lq.zijieapi.com^
 ||tnc16-*.byteoversea.com^
-||rtbimp-loadbalancer-*.amazonaws.com^
-||get*bannerads-6egeg2u34q-du.a.run.app^
 ||mobiadvert*.livesportmedia.eu^
-||ad-*.appacc.dbankedge.cn^
 ||ads*.bojijulebu.com^
-||adapi*.boomplaymusic.com^
-||events-*.op.hicloud.com^
-||adx-*.dbankedge.cn^
-||banner.*.tccapis.com^
-||cdn-adn-*.rayjump.com^
 ||adcs-*.myappsget.com^
 ||fake-domain^
 ||gao1asdjws^
@@ -595,7 +596,6 @@ rgmechanicsgames.com*VPN.exe
 @@|fpt.xbox.com^$important
 @@|sqlite.org^$important
 @@|cloud.githubusercontent.com^$important
-@@|mods.bethesda.net^$important
 @@|a-*.1fichier.com^$important
 @@|visualstudio.microsoft.com^$important
 @@|godofwar.playstation.com^$important
@@ -777,6 +777,7 @@ rgmechanicsgames.com*VPN.exe
 @@|download.microsoft.com^$important
 @@|lvlt.cdn.ea.com^$important
 @@|ptc-directory-static.us-east-1.prod.public.atl-paas.net^$important
+@@|img-s-msn-com.akamaized.net^$important
 @@|_https._tcp.mirror.aarnet.edu.au^$important
 @@|download.kde.org^$important
 @@|system76.cdn.prismic.io^$important
@@ -1037,7 +1038,6 @@ rgmechanicsgames.com*VPN.exe
 @@|store.kde.org^$important
 @@|*.github.io^$important
 @@|3.au.download.windowsupdate.com^$important
-@@|presence.teams.live.com^$important
 @@|clan.akamai.steamstatic.com^$important
 @@|xsts.auth.xboxlive.com^$important
 @@|microsoftedgetips.microsoft.com^$important
@@ -1248,6 +1248,7 @@ rgmechanicsgames.com*VPN.exe
 @@|login.microsoftonline.com^$important
 @@|mirrors.cloudfly.vn^$important
 @@|assets.account.microsoft.com^$important
+@@|assets2.razerzone.com^$important
 @@|geoip.fedoraproject.org^$important
 @@|auth.gog.com^$important
 @@|accounts.nvgs.nvidia.com^$important
@@ -1274,6 +1275,7 @@ rgmechanicsgames.com*VPN.exe
 @@|dev.java^$important
 @@|launcher-index-prod.s3.amazonaws.com^$important
 @@|mirror.us-midwest-1.nexcess.net^$important
+@@|lancache.steamcontent.com^$important
 @@|acctcdn.msauth.net^$important
 @@|*.storage.msn.com^$important
 @@|web.vortex.data.trafficmanager.net^$important
@@ -1395,7 +1397,6 @@ rgmechanicsgames.com*VPN.exe
 @@|policies.live.net^$important
 @@|smartscreen-prod.microsoft.com^$important
 @@|t.ssl.ak.dynamic.tiles.virtualearth.net^$important
-@@|codesector.nyc3.cdn.digitaloceanspaces.com^$important
 @@|nexus-collections-temp.s3.*.backblazeb2.com^$important
 @@|nuget.info^$important
 @@|gfn.pentanet.gg^$important
@@ -1672,6 +1673,7 @@ rgmechanicsgames.com*VPN.exe
 @@|cm*.cm.steampowered.com^$important
 @@|s.go-mpulse.net^$important
 @@|connectivity.zorin-os.com^$important
+@@|mucp.api.account.microsoft.com^$important
 @@|zorinos.com^$important
 @@|videoplayercdn.osi.office.net^$important
 @@|librewolf-community.gitlab.io^$important
@@ -1792,7 +1794,6 @@ rgmechanicsgames.com*VPN.exe
 @@|oauth2.razer.com^$important
 @@|mirror-hk.koddos.net^$important
 @@|cp601.prod.do.dsp.mp.microsoft.com^$important
-@@|dragonagekeep.com^$important
 @@|river.data.ea.com^$important
 @@|live-feed.cdn.ubisoft.com^$important
 @@|socialclub.rockstargames.com^$important
@@ -1946,6 +1947,7 @@ rgmechanicsgames.com*VPN.exe
 @@|inbox-gta5-prod.ros.rockstargames.com^$important
 @@|app.swaggerhub.com^$important
 @@|bing.fi^$important
+@@|fedoraproject-updates-archive.fedoraproject.org^$important
 @@|store.steamstatic.com^$important
 @@|help.ubuntu.com^$important
 @@|biostore.bioware.com^$important
@@ -2138,6 +2140,7 @@ rgmechanicsgames.com*VPN.exe
 @@|api-chat.chatbotize.com^$important
 @@|fd-assets.prod.atl-paas.net^$important
 @@|pmservices.cp.microsoft.com^$important
+@@|iso.pop-os.org^$important
 @@|www.tecmint.com^$important
 @@|free.download.zorinos.com^$important
 @@|mirrors.edge.kernel.org^$important
@@ -2293,6 +2296,7 @@ rgmechanicsgames.com*VPN.exe
 @@|*-ring.msedge.net^$important
 @@|partners.playstation.com^$important
 @@|graph.microsoft.com^$important
+@@|go.trouter.teams.microsoft.com^$important
 @@|smwebs.xyz^$important
 @@|logitech.com^$important
 @@|pin-river.data.ea.com^$important
@@ -2604,6 +2608,7 @@ rgmechanicsgames.com*VPN.exe
 @@|firefox.com^$important
 @@|avatars.githubusercontent.com^$important
 @@|accounts.ea.com^$important
+@@|production.cloudflare.docker.com^$important
 @@|wus-www.sway-cdn.com^$important
 @@|presence-api.live.public-ws.prod.tetra.fleet.ubi.com^$important
 @@|epicgames.com^$important
@@ -3361,6 +3366,7 @@ flipdish-cookie-consent*
 ||gitcoin-rewards.
 ||sgtm.wimdu.
 ||pubggf*.xyz^
+||megapari-*.com^
 ||snowplow-collector.
 ||www.fuze-hill*.xyz^
 ||postnord-tk.
@@ -3368,6 +3374,7 @@ flipdish-cookie-consent*
 ||receivingauspost.
 ||cnzz.
 ||parkdomainreal*.site^
+||aupostchange.
 ||auspost-tracking.
 ||popunder.
 ||csgogf*.xyz^
