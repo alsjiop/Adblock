@@ -1,4 +1,4 @@
-# Update time: 2026-11-25 06:00:11
+# Update time: 2026-11-25 15:27:44
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -18,10 +18,10 @@
 # 每12小时同步一次、如有误杀、请手动解除
 
 ||report.*.qq.com^
-||entry-verifed-cdn.
 ||imgpfx.arenavision.
 ||player-feedback*.glomex.*^
 ||ad.kisstvshow.*^
+||entry-verifed-cdn.
 analytics-*.aasaam.com
 ||cj1*.online^
 ||tracking.olx.
@@ -401,6 +401,7 @@ rgmechanicsgames.com*VPN.exe
 ||analytics*.carambo.la^
 %2Frw%2Fbeacon_
 ||geoloc*.9cd47096ab1495d8d3b18667f6a52b9c.com^
+||bjsvp*.space^
 ||analytics-v*.eip.telegraph.co.uk^
 ||analytics.ticketmaster.
 @@||cdn-msp*.18comic.*^
@@ -492,7 +493,6 @@ rgmechanicsgames.com*VPN.exe
 ||iad-*.braze.com^
 ||ms*.applvn.com^
 ||adserver.*.yahoodns.net^
-||bjsvp*.space^
 ||rtb-*.anysex.com^
 ||marketplace-*.hyprmx.com^
 ||api*.batmobil.net^
@@ -948,7 +948,6 @@ rgmechanicsgames.com*VPN.exe
 @@|cards*-prod.svc.gearsofwar.net^$important
 @@|msrc-blog.microsoft.com^$important
 @@|live.com^$important
-@@|studiostaticassetsprod.azureedge.net^$important
 @@|_http._tcp.mxrepo.com^$important
 @@|game-saves.live.cdpred.services^$important
 @@|vsmarketplacebadge.apphb.com^$important
@@ -1208,7 +1207,6 @@ rgmechanicsgames.com*VPN.exe
 @@|cdn.search.brave.com^$important
 @@|pw.nexusmods.com^$important
 @@|whatsnew.teamviewer.com^$important
-@@|forums-origin.xbox.com^$important
 @@|pshelpprod.blob.core.windows.net^$important
 @@|scout.docker.com^$important
 @@|gx-target-experiments-frontend-api.gx.nvidia.com^$important
@@ -1233,6 +1231,7 @@ rgmechanicsgames.com*VPN.exe
 @@|profile.gamepass.com^$important
 @@|ppa.launchpad.net^$important
 @@|steam-chat.com^$important
+@@|is*-ssl.mzstatic.com^$important
 @@|www.blomp.com^$important
 @@|cdn.storeedgefd.dsx.mp.microsoft.com^$important
 @@|split-evaluator.juno.ea.com^$important
@@ -1293,6 +1292,7 @@ rgmechanicsgames.com*VPN.exe
 @@|enforcement.spro.xbox.com^$important
 @@|bat.bing.com^$important
 @@|github-production-upload-manifest-file-*.s3.amazonaws.com^$important
+@@|www.qt.io^$important
 @@|gear.playstation.com^$important
 @@|www.ea.com^$important
 @@|time-ios.apple.com^$important
@@ -1557,6 +1557,7 @@ rgmechanicsgames.com*VPN.exe
 @@|cdn.gog.com^$important
 @@|api2.weather.com^$important
 @@|iir.blizzard.com^$important
+@@|maxst.icons8.com^$important
 @@|error-reporter.juno.ea.com^$important
 @@|cdn.akamai.steamstatic.com^$important
 @@|shavar.services.mozilla.com^$important
@@ -2578,7 +2579,6 @@ rgmechanicsgames.com*VPN.exe
 @@|edge-consumer-static.azureedge.net^$important
 @@|uat-ubiservices.cdn.ubi.com^$important
 @@|id.atlassian.com^$important
-@@|discord.gg^$important
 @@|logincdn.msauth.net^$important
 @@|media.githubusercontent.com^$important
 @@|mirror.ihost.md^$important
